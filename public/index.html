@@ -1,23 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="generator" content="GitLab Pages">
-    <title>Plain HTML site using GitLab Pages</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Shipwreckt</title>
+    
+    <!-- styles -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+
   </head>
+  
+<!-------------------------------------------------------------->
   <body>
-    <div class="navbar">
-      <a href="https://pages.gitlab.io/plain-html/">Plain HTML Example</a>
-      <a href="https://gitlab.com/pages/plain-html/">Repository</a>
-      <a href="https://gitlab.com/pages/">Other Examples</a>
+
+    <header id="header">
+      <img src="logo.jpg">
+      <h1>Shipwreckt</h1>
+      
+      <!-- Menu selection  -->
+      <ul class="main-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>                 
+
+</header>
+
+    <div id="container">
+      <div class="inner">
+        <div id="content"> 
+          
+          <div id="home" class="content-region hide">
+            <h2>Home</h2>
+            <p>
+            Hello there welcome to my website personal! This is just a simple website I have thrown together
+            for your pleasure, so have a look around! I will add some pages about projects I have done soon so
+            be patiant please.
+            </p>
+
+            <p>
+
+            </p>
+          </div>
+          
+          <div id="about" class="content-region hide">
+            <h2>About</h2>
+            <p>
+            Hello there! I am Shipwreckt, a 15-year-old dude who lives in the UK. I would describe
+            myself as an outgoing person, and I enjoy talking to people even if I do not know them well.
+            </p>
+
+            <p>I have enjoyed programming for a number of years now, ever since early
+            2022, but I only really delved into programming fully in late 2023, when I
+            fully switched from Windows to Linux. The reason why I made the switch
+            was because even though I can see Windows is not all that great, I wanted
+            to challenge myself and also give myself a reason to program again, so I
+            switched over to Linux, and it has been amazing. It has given me the
+            freedom to be creative with my desktop and config files. But I am
+            currently learning the C programming language, and I am planning on
+            making some more programs, so keep your eyes peeled for when I do! 
+            </p>
+          </div>
+          
+          <div id="contact" class="content-region hide">
+            <h2>Contact</h2>
+            <p>You can contact me here for any querys or suggestions.<br>
+            Email: shipwreckt@mailfence.com<br><br>
+            Code, mostly use gitlab: <a href="https://gitlab.com/Shipwreckt">Gitlab</a> <a href="https://github.com/Shipwrecktt">Github</a>
+            </p>
+          </div>
+          
+        </div>
+      </div>
     </div>
 
-    <h1>Hello World!</h1>
-
-    <p>
-      This is a simple plain-HTML website on GitLab Pages, without any fancy static site generator.
-    </p>
+    <!-- Load additional JS scripts here -->
+    <script type="text/javascript" src="script.js"></script>
+    
   </body>
 </html>
-
