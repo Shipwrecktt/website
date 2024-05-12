@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Shipwreckt</title>
+    <link rel="icon" href="logo.jpg" type="image/x-icon">
+    
+    <!-- styles -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+
+  </head>
+  
+<!-------------------------------------------------------------->
+  <body>
+
+    <header id="header">
+      <img src="logo.jpg">
+      <h1>Shipwreckt</h1>
+      
+      <!-- Menu selection  -->
+      <ul class="main-menu">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>                 
+
+</header>
+
+    <div id="container">
+      <div class="inner">
+        <div id="content"> 
+          
+          <div id="qtile" class="content-region hide">
+            <h2>Qtile config</h2>
+            <p>
+            Qtile is a desktop environment that is written in the Python programming language. If you
+            have any knowledge of programming, you might think, how slow is that? Well, it is not really
+            slow. I have not had any issues with Qtile, and I have only had good experiences with it. It
+            has been very fun customising it over the time I have been there and making it my own little
+            by little! If you know how to programme in Python, it is very fun just to toy around with and
+            customise, so if you want a really hackable desktop environment for Linux, I would suggest Qtile
+            a thousand times over!
+            </p>
+
+            <p>
+            In both my Qtile configs, laptop and Pc configs I have it set out rather simpily,
+            I have an install script that sets up my config.py for qtile and asks you if you want
+            to install some of software that I use. I also have an auto install script that I use
+            most of the time. These install scripts are written in bash script because they are one 
+            use and it is easier to just do it in bash if its a one use thing that I will delete
+            afterwards.
+            </p>
+
+            <p>
+            Some of my favourite software I have in the install.sh is Mpv and youtube-dl, this is
+            because it allows me to watch youtube videos in my terminal. This is further enhanced
+            by the ytfzf command that allows me to browes videos in my terminal. The reason why I
+            like this is because youtube has became very annoying. They have games on that website now and
+            whenever I serch something it only shows like 4 valid resaults, whilst ytfzf shows me
+            nothing but valid resaults.
+            </p>
+
+            <p>
+            Another good bit of software my install.sh installs is  librewolf, a privacy centered brower
+            that acctually cares about your privacy unlike firefox. Whilst I do like firefox it has
+            decended from what it once was and you need to install a custom user.js to become really
+            secsure. Whilst with librewolf iy just does it for you and gives you settings on what
+            you want to enable. I like librewolf because I know that the brower is designed to keep
+            ne safe and that makes me feel well safe.
+            </p>
+            
+            <p>Here is an example of my current desktop</p>
+            <img src="Images/QtileDesktop.png" alt="Silly desktop" width="750" height="auto" >
+            <a href="https://gitlab.com/Shipwreckt/Qtile-conf">Gitlab project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Load additional JS scripts here -->
+    <script type="text/javascript" src="script.js"></script>
+    
+  </body>
+</html>
