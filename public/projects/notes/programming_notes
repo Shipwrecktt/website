@@ -34,17 +34,9 @@
       <div class="inner">
         <div id="content"> 
           
-            <h2><b>Weekly Byte</b></h2>
-            <p>
-            The weekly byte is a kind of news thing I do each week, it covers some software and
-            hardware I like and a weekly distro. There is also the odd bit of news if I think it is
-            intresting but overall this is just so I can learn more about the Linux and programming world.
-            </p>
-        <li><a href="WeeklyByte/issue0WB.html">Issue 0</a></li>
-        <li><a href="WeeklyByte/issue1WB.html">Issue 1</a></li>
-            
-
-
+            <h2>Programming notes</h2>
+	    <p>Hello there, this page is dedicated to my programming notes I have took overtime.
+	    But I do hope you enjoy and maybe learn something from my notes.</p>
             
         </div>
       </div>
