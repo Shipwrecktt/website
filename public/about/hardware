@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Shipwreckt</title>
+    <link rel="icon" href="../logo.jpg" type="image/x-icon">
+    
+    <!-- styles -->
+    <link href="../style.css" rel="stylesheet" type="text/css" />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+
+  </head>
+  
+  <body>
+
+    <header id="header">
+      <img src="../logo.jpg">
+      <h1>Shipwreckt</h1>
+      
+      <!-- Menu selection  -->
+      <ul class="main-menu">
+        <li><a href="../index#home">Home</a></li>
+        <li><a href="../index#about">About</a></li>
+        <li><a href="../index#projects">Projects</a></li>
+        <li><a href="../index#contact">Contact</a></li>
+      </ul>                 
+
+</header>
+
+    <div id="container">
+      <div class="inner">
+        <div id="content"> 
+            <h3>Hardware</h3>
+            <p>I am daily driving a <a href="https://www.notebookcheck.net/Review-Lenovo-ThinkPad-L440-Notebook.107632.0.html">ThinkPad
+            L440</a> made in 2013, its keyboard feels like heaven, definitely the best keyboard I have
+            ever used my hands just glide over it. It is durable as hell, I have dropped this thing a
+            few times no dents or scratches, I know it has a roll cage in it so this laptop will last
+            me forever. I have 8GB of RAM in this laptop
+            which I will upgrade at some point and im using a I5-4200M CPU. Overall it is an amazing
+            laptop and I believe I can use this laptop for the rest of my life.</p>
+          </div>
+      </div>
+    </div>
+
+    <!-- Load additional JS scripts here -->
+    <script type="text/javascript" src="../script.js"></script>
+    
+  </body>
+</html>
