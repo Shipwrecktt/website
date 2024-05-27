@@ -1,85 +1,88 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shipwreckt</title>
-    <link rel="icon" href="../../logo.jpg" type="image/x-icon">
-    
-    <!-- styles -->
-    <link href="../../style.css" rel="stylesheet" type="text/css" />
-
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
-
-  </head>
-  
-<!-------------------------------------------------------------->
-  <body>
-
-    <header id="header">
-      <img src="../../logo.jpg">
-      <h1>Shipwreckt</h1>
-      
-      <!-- Menu selection  -->
-      <ul class="main-menu">
-        <li><a href="../../index.html#home">Home</a></li>
-        <li><a href="../../index.html#about">About</a></li>
-        <li><a href="../../index.html#projects">Projects</a></li>
-        <li><a href="../../index.html#contact">Contact</a></li>
-      </ul>                 
-
-</header>
-
-    <div id="container">
-      <div class="inner">
-        <div id="content"> 
-          
-            <h2>Fakefetch</h2>
-            <p>
-            <h3><b>Background</b></h3>
-            Fakefetch is the first real program I have ever created that I use daily apart from
-            config files. I made fakefetch when I saw people complaining about neofetch being slow that is why
-            I have called it fakefetch. In the start it was just 10 lines of bash echo commands which is
-            like printing in python, so it was bascially bare theminimun, and I was not proud of this
-            program I was like ok thats done just add it to my .bashrc and continue using Linux.
-            After about a day I wanted to see if I could add more to it like the uptime, then comes
-            what package manager im using and after a while I have made my own mini neofetch program
-            that I can use on all of my computers.
-            </p>
-
-            <h3><b>What is Fakefetch</b></h3>
-            <p>Fakefetch is alternative to neofetch, it is written in bash script like neofetch
-            but is not a billion lines long or bloated.
-
-            <h3><b>Why Fakefetch?</b></h3>
-            <p>The main reason why you should use Fakefetch is because it is a very flexible 
-            program being written in bash script; it is not a large program, only being one file
-            large and does not slow down your computer at all unlike Neofetch. Fakefetch is also
-            very hackable thanks to how I have commented on the code, meaning you can make your own 
-            Fakefetch versions and make it do whatever you want thanks to it being licensed under the
-            GPL, so you have the right to redistribute it if you make your own versions that you can share
-            with anybody.</p>
-            
-            <h3><b>How to install</b></h3>
-            <p>I have made it very easy to install fakefetch by automating most of it for you.
-            <li>Step one: The first thing you want to do is clone the gitlab project, you can do
-            this from the following command.<br>
-            $ git clone https://gitlab.com/Shipwreckt/fakefetch</li>
-            <li>Step two: after cloneing the project you want to run the setup.sh with ./setup.sh</li>
-            <li>To configure Fakefetch the file is located at /bin/fakefetch</p>
-            
-            <p>Here is an example of fakefetch!</p>
-            <img src="../Images/Fakefetch.png" alt="An example of fakefetch!" width="750" height="auto" >
-            <a href="https://gitlab.com/Shipwreckt/fakefetch">Gitlab</a>
-
-
-            
-        </div>
-      </div>
+    <link rel="icon" href="../../Images/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="Fakefetch.html">Fakefetch</a></li>
+            <li><a href="#images">images</a></li>
+        </ul>
     </div>
+    <div class="content">
+        <header>
+            <h1>Shipwreckt</h1>
+            <nav>
+                <ul>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="../../index.html#projects">projects</a></li>
+                    <li><a href="../../index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main-content">
+                <h2>Fakefetch</h2>
+                <h3><b>Background</b></h3>
+                <p>
+                Fakefetch is the first real program I have ever created that I use daily apart from config
+                files. I made fakefetch when I saw people complaining about neofetch being slow that is why
+                I have called it fakefetch. In the start it was just 10 lines of bash echo commands which is
+                like printing in python, so it was bascially bare theminimun, and I was not proud of this
+                program I was like ok thats done just add it to my .bashrc and continue using Linux. After
+                about a day I wanted to see if I could add more to it like the uptime, then comes what
+                package manager im using and after a while I have made my own mini neofetch program that I
+                can use on all of my computers.
+                </p>
 
-    <!-- Load additional JS scripts here -->
-    <script type="text/javascript" src="../../script.js"></script>
-    
-  </body>
+               <h3><b>What is Fakefetch</b></h3>
+               <p>Fakefetch is alternative to neofetch, it is written in bash script like neofetch
+               but is not a billion lines long or bloated.
+
+               <h3><b>Why Fakefetch?</b></h3>
+               <p>The main reason why you should use Fakefetch is because it is a very flexible program
+                being written in bash script; it is not a large program, only being one file large and does
+                not slow down your computer at all unlike Neofetch. Fakefetch is also very hackable thanks
+                to how I have commented on the code, meaning you can make your own Fakefetch versions and
+                make it do whatever you want thanks to it being licensed under the GPL, so you have the
+                right to redistribute it if you make your own versions that you can share with anybody.</p>
+
+                <h3><b>How to install</b></h3>
+                <li>Step one: The first thing you want to do is clone the gitlab project, you can do
+                this from the following command.<br>$ git clone https://gitlab.com/Shipwreckt/fakefetch</li></p>
+            
+                <p><li>Step two: after cloneing the project you want to run the setup.sh with
+                ./setup.sh</li></p>
+            
+                <p><li>To configure Fakefetch the file is located at /bin/fakefetch</p>
+                <p>Here is an example of fakefetch!</p>
+                <img src="../../Images/Fakefetch/Fakefetch.png" alt="An example of fakefetch!" width="750" height="auto" >
+                <br>
+                <a href="https://gitlab.com/Shipwreckt/fakefetch">Source code on Gitlab</a>
+            <section id="images">
+                <img src="../../Images/Fakefetch/purplearch.png" width="900" height="auto" class="center">
+                <br>
+                <img src="../../Images/Fakefetch/bluearch.png" width="900" height="auto" class="center">
+                <br>
+                <img src="../../Images/Fakefetch/greenarch.png" width="900" height="auto" class="center">
+                <br>
+                <img src="../../Images/Fakefetch/orangearch.png" width="900" height="auto" class="center">
+                <br>
+                <img src="../../Images/Fakefetch/redarch.png" width="900" height="auto" class="center">
+                <br>
+                <img src="../../Images/Fakefetch/plumarch.png" width="900" height="auto" class="center">
+                
+            
+            </section>
+        </main>
+
+    </div>
+    <script src="../../script.js"></script>
+</body>
 </html>
+

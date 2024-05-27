@@ -1,38 +1,34 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shipwreckt</title>
-    <link rel="icon" href="../logo.jpg" type="image/x-icon">
-    
-    <!-- styles -->
-    <link href="../style.css" rel="stylesheet" type="text/css" />
-
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
-
-  </head>
-  
-  <body>
-
-    <header id="header">
-      <img src="../logo.jpg">
-      <h1>Shipwreckt</h1>
-      
-      <!-- Menu selection  -->
-      <ul class="main-menu">
-        <li><a href="../index#home">Home</a></li>
-        <li><a href="../index#about">About</a></li>
-        <li><a href="../index#projects">Projects</a></li>
-        <li><a href="../index#contact">Contact</a></li>
-      </ul>                 
-
-</header>
-
-    <div id="container">
-      <div class="inner">
-        <div id="content"> 
-            <h3>Hardware</h3>
+    <link rel="icon" href="../Images/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="../index.html#welcome">Welcome</a></li>
+            <li><a href="../index.html#about">About Me</a></li>
+            <li><a href="../index.html#contact">Reach out</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <header>
+            <h1>Shipwreckt</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#projects">projects</a></li>
+                    <li><a href="../index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main-content">
+                    <h3>Hardware</h3>
             <p>I am daily driving a <a href="https://www.notebookcheck.net/Review-Lenovo-ThinkPad-L440-Notebook.107632.0.html">ThinkPad
             L440</a> made in 2013, its keyboard feels like heaven, definitely the best keyboard I have
             ever used my hands just glide over it. It is durable as hell, I have dropped this thing a
@@ -40,12 +36,9 @@
             me forever. I have 8GB of RAM in this laptop
             which I will upgrade at some point and im using a I5-4200M CPU. Overall it is an amazing
             laptop and I believe I can use this laptop for the rest of my life.</p>
-          </div>
-      </div>
+        </main>
     </div>
-
-    <!-- Load additional JS scripts here -->
-    <script type="text/javascript" src="../script.js"></script>
-    
-  </body>
+    <script src="script.js"></script>
+</body>
 </html>
+

@@ -1,95 +1,86 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shipwreckt</title>
-    <link rel="icon" href="../logo.jpg" type="image/x-icon">
-    
-    <!-- styles -->
-    <link href="../style.css" rel="stylesheet" type="text/css" />
-
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
-
-  </head>
-  
-  <body>
-
-    <header id="header">
-      <img src="../logo.jpg">
-      <h1>Shipwreckt</h1>
-      
-      <!-- Menu selection  -->
-      <ul class="main-menu">
-        <li><a href="../index.html#home">Home</a></li>
-        <li><a href="../index.html#about">About</a></li>
-        <li><a href="../index.html#projects">Projects</a></li>
-        <li><a href="../index.html#contact">Contact</a></li>
-      </ul>                 
-
-</header>
-    <div id="container">
-      <div class="inner">
-        <div id="content">
-
-            <h2>Software</h2>
-            <p><b>Linux distro</b><br>
+    <link rel="icon" href="../Images/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="../index.html#welcome">Welcome</a></li>
+            <li><a href="../index.html#about">About Me</a></li>
+            <li><a href="../index.html#contact">Reach out</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <header>
+            <h1>Shipwreckt</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#projects">projects</a></li>
+                    <li><a href="../index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main-content">
+                    <h2>Software</h2>
+            <h3>Linux distro</h3>
             I use arch, mainly because I am making my own work environment and I can pick what
             applications I want to install instead of some linux distro that does it for me, the
             beauty of Arch Linux is that you're held responsible nothing happens unless you let it
             happen. There is a learning curve but when you break it, it is more than worth it for
             the amount of freedom you get from Arch.
 
-            <p><b>Web browser</b><br>
-            For my web browser is <a href "https://librewolf.net/">librewolf</a> the only browser that
+            <h3>Web browser</h3>
+            <p>For my web browser is <a href "https://librewolf.net/">librewolf</a> the only browser that
             really cares about your privacy, whilst yes it is annoying being logged out of everything
             each time I close it, small sacrifices need to be made for privacy  and this is why password managers
-            exist I just log on in a matter of seconds. I don't use many extensions but the ones I do use are 
+            exist I just log on in a matter of seconds. I don't use many extensions but the ones I do use are
             <a href "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">ublock</a> ,
             <a href "https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/">KeePassXC</a> ,
             <a href "https://addons.mozilla.org/en-US/firefox/addon/darkreader/">Dark reader</a>.</p>
 
-            <p><b>IDE</b><br>My IDE is Vim, it is a good all around program to use, it is fast to work with and is very
+            <h3>IDE</h3>
+            <p>My IDE is Vim, it is a good all around program to use, it is fast to work with and is very
             customizable which I love personally, I would recommend vim for anybody who wants a
             terminal based text editor and to anybody who wants to get into programming or anybody
             who is programming currently.</p>
 
-            <p><b>Password manager</b><br>
-            I use <a href="https://keepassxc.org/">KeePassXC</a> for managing my passwords, I
+            <h3>Password manager</h3>
+            <p>I use <a href="https://keepassxc.org/">KeePassXC</a> for managing my passwords, I
             used to use bitwarden but after a while I just thought I did not want my passwords in
             somebody else's server so I switched to KeePassXC because it is offline, I use syncthing
             to sync all my passwords from my laptop to my phone.</p>
 
-            <p><b>File manager</b><br>
-            For my file manager, I use <a href ="https://github.com/ranger/ranger">Ranger</a>.
+            <h3>File manager</h3>
+            <p>For my file manager, I use <a href ="https://github.com/ranger/ranger">Ranger</a>.
             The main reason I use Ranger is because it uses Vim keybinds,
             which I love. I first tested it out to see if it was any good, and after using it for about a
             day, I decided to fully switch over to it, and it is a good file manager. I would suggest it to
             anybody who likes the vim keybinds. </p>
-            <p><b>Status bar</b><br>
-            <a href "https://github.com/polybar">Polybar</a>
+            <h3>Status bar</h3>
+            <p><a href "https://github.com/polybar">Polybar</a>
             is the software that I use for my status bar because it is very customizable and it has all
             the features I look for in a status bar, it it also has a clean and modern look by
             deafult. Sometimes I just mess around with my polybar and see what looks the best.</p>
 
-            <p><b>App launcher</b><br>
-            I use <a href "https://github.com/davatorium/rofi">rofi</a> for my app launcher because
+            <h3>App launcher</h3>
+            <p>I use <a href "https://github.com/davatorium/rofi">rofi</a> for my app launcher because
             it is customizable and easy to use, it also comes with a bunch of default options which
             I sometimes use as a template for my rofi configs.</p>
 
-            <p><b>Xorg or Wayland?</b><br>
-            I like Wayland; it is smooth and modern. But I do not think it is fully there yet, so for
+            <h3>Xorg or Wayland?</h3>
+            <p>I like Wayland; it is smooth and modern. But I do not think it is fully there yet, so for
             now I am staaying with Xorg, because it just works and I have no issues with it. In the future,
             in about a year, I will switch to Wayland because it is more modern, but for now, Xorg is my go-to.</p> 
- 
-          </div>
-          
-        </div>
-      </div>
+        </main>
     </div>
-
-    <!-- Load additional JS scripts here -->
-    <script type="text/javascript" src="script.js"></script>
-    
-  </body>
+    <script src="script.js"></script>
+</body>
 </html>
+

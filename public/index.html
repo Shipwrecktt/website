@@ -1,103 +1,94 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shipwreckt</title>
-    <link rel="icon" href="logo.jpg" type="image/x-icon">
-    
-    <!-- styles -->
-    <link href="style.css" rel="stylesheet" type="text/css" />
-
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
-
-  </head>
-  
-  <body>
-
-    <header id="header">
-      <img src="logo.jpg">
-      <h1>Shipwreckt</h1>
-      
-      <!-- Menu selection  -->
-      <ul class="main-menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>                 
-
-</header>
-
-    <div id="container">
-      <div class="inner">
-        <div id="content"> 
-          
-          <div id="home" class="content-region hide">
-            <h2>Home</h2>
-            <p>Hello and welcome to my personal website! For the most part this website is mostly
-            about my programming work I have done, you can find all my coding projects
-            on the <a href="#projects">projects page</a>. I do a weekly news artical called
-            <a href="projects/WeeklyByte/WeeklyByte.html">the weekly byte</a> where I do a Linux distro of the week
-            and some software and hardware suggestions, also the odd bit of news. But that is mostly
-            it  for this website have a look around and see what you like!
-
-            <p>Also quick note this website is still being made so please be patiant</p>
-          </div>
-          
-          <div id="about" class="content-region hide">
-            <h2>About</h2>
-            <p>
-            Hello there! I am Shipwreckt, a 15-year-old dude who lives in the UK. I would describe
-            myself as an outgoing person, and I enjoy talking to people even if I do not know them well.
-            </p>
-
-            <p>I have enjoyed programming for a number of years now, ever since early
-            2022, but I only really delved into programming fully in late 2023, when I
-            fully switched from Windows to Linux. The reason why I made the switch
-            was because even though I can see Windows is not all that great, I wanted
-            to challenge myself and also give myself a reason to program again, so I
-            switched over to Linux, and it has been amazing. It has given me the
-            freedom to be creative with my desktop and config files. But I am
-            currently learning the C programming language, and I am planning on
-            making some more programs, so keep your eyes peeled for when I do! 
-            </p>
-
-            <hr>
-            <li><a href="about/hardware">Hardware I am using</a></li>
-            <li><a href="about/software">Software I use</a></li>
- 
-          </div>
-          
-          <div id="projects" class="content-region hide">
-            <h2>Projects!</h2>
-            <p>Below is a list of my projects, have a look around!</p>
-
-        <li>Programming</li>
-        <li><a href="projects/programs/Qtile.html">Qtile configs</a></li>
-        <li><a href="projects/programs/Fakefetch.html">Fakefetch script</a></li><br>
-        
-        <li>Written works</li>
-        <li><a href="projects/WeeklyByte/WeeklyByte.html">Weekly Byte</a></li>
-          </div>
-          
-          <div id="contact" class="content-region hide">
-            <h2>Contact</h2>
-            <p>You can contact me here for any querys or suggestions.<br>
-            Email: shipwreckt@mailfence.com<br><br>
-            Code, mostly use gitlab:
-            <a href="https://gitlab.com/Shipwreckt">Gitlab</a> <a href="https://github.com/Shipwrecktt">Github</a><br>
-            Social:
-            <a rel="me" href="https://mastodon.online/@shipwreckt">Mastodon</a>
-            </p>
-          </div>
-          
-        </div>
-      </div>
+    <link rel="icon" href="Images/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="#welcome">Welcome</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Reach out</a></li>
+        </ul>
     </div>
+    <div class="content">
+        <header>
+            <h1>Shipwreckt</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main-content">
+            <section id="welcome">
+                <h2>Welcome To Shipwreckt</h2>
+                <p>Hello and welcome to my personal website! For the most part this website is
+                mostly about my programming work I have done, you can find all my coding projects on
+                the projects page. I do a weekly news artical called the weekly byte where I do a
+                Linux distro of the week and some software and hardware suggestions, also the odd
+                bit of news. But that is mostly it for this website have a look around and see what
+                you like!</p>
+                <br>
+                <p>Also quick note this website is still being made so please be patiant</p>
+            </section>
 
-    <!-- Load additional JS scripts here -->
-    <script type="text/javascript" src="script.js"></script>
-    
-  </body>
+            <section id="about" style="display: none;">
+                <h2>About Me</h2>
+                <p>Hello there! I am Shipwreckt, a 15-year-old dude who lives in the UK, if you
+                cannot tell I like to program!</p>
+                
+                <p>I have enjoyed programming for a number of years now, ever since early 2022, but I
+                only really delved into programming fully in late 2023, when I fully switched from
+                Windows to Linux. The reason why I made the switch was because even though I can see
+                Windows is not all that great, I wanted to challenge myself and also give myself a
+                reason to program again, so I switched over to Linux, and it has been amazing. It
+                has given me the freedom to be creative with my desktop and config files. But I am
+                currently learning the C programming language, and I am planning on making some more
+                programs, so keep your eyes peeled for when I do!</p>
+                <hr>
+                <li><a href="about/hardware">Hardware I am using</a></li>
+                <li><a href="about/software">Software I use</a></li>
+            </section>
+
+            <section id="contact" style="display: none;">
+                <h2>Contact</h2>
+                <p>You can contact me here for any querys or suggestions.<br>
+                Email: shipwreckt@mailfence.com</p><br>
+
+                <p>Code, mostly use gitlab:
+                <a href="https://gitlab.com/Shipwreckt">Gitlab</a> 
+                <a href="https://github.com/Shipwrecktt">Github</a>
+                <br>
+                Social:
+                <a rel="me" href="https://mastodon.online/@shipwreckt">Mastodon</a>
+                </p>
+            </section>
+
+            <section id="projects" style="display: none;">
+            <h2>Projects!</h2>
+            <p>Below is a list of all my projects, have a look around!</p>
+
+            <p>Programming
+            <li><a href="projects/programs/Qtile.html">Qtile configs</a></li>
+            <li><a href="projects/programs/Fakefetch.html">Fakefetch script</a></li>
+            </p><br>
+
+            <p>Written works
+            <li><a href="projects/WeeklyByte/WeeklyByte.html">Weekly Byte</a></li>
+            </p>
+            </section>
+
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>
+
