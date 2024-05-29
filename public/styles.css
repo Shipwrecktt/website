@@ -9,15 +9,20 @@ body {
 
 .sidebar {
     position: fixed;
-    width: 240px;
+    width: 240px; /* Default sidebar width */
     height: 100%;
     background-color: #141414;
     padding-top: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: width 0.3s ease;
+}
+
+.sidebar:hover {
+    width: 280px; /* Width when hovered over */
 }
 
 .sidebar h2 {
-    color: #d1a1d3;
+    color: #7a4d7c;
     text-align: center;
 }
 
@@ -40,14 +45,19 @@ body {
 }
 
 .sidebar ul li a:hover {
-    background-color: #333333;
-    color: #d1a1d3;
+    background-color: #7a4d7c;
+    color: #f9f9f9;
 }
 
 .content {
-    margin-left: 250px;
+    margin-left: 240px;
     padding: 20px;
+    transition: margin-left 0.3s ease;
     flex: 1;
+}
+
+.sidebar:hover ~ .content {
+    margin-left: 300px;
 }
 
 header {
@@ -88,8 +98,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #d1a1d3;
-    color: #333333;
+    background-color: #7a4d7c;
+    color: #f9f9f9;
     border-radius: 5px;
 }
 
@@ -102,12 +112,11 @@ main {
 }
 
 main h2 {
-    color: #d1a1d3;
+    color: #7a4d7c;
 }
 
-
 main h3 {
-    color: #d1a1d3;
+    color: #7a4d7c;
 }
 
 main p {
@@ -115,7 +124,7 @@ main p {
 }
 
 main a {
-    color:#9433ff;
+    color: #9433ff;
     text-decoration: none;
 }
 
@@ -124,8 +133,8 @@ main a:hover {
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
