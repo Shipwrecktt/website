@@ -68,6 +68,12 @@ header {
     z-index: 1000;
 }
 
+
+header hr {
+    width:50%;
+    text-align:center;
+}
+             <hr style="width:50%;text-align:center;">
 header h1 {
     margin: 0;
     color: #ffffff;
@@ -111,6 +117,10 @@ main {
     margin-top: 20px;
 }
 
+main h1 {
+    color: #7a4d7c;
+}
+
 main h2 {
     color: #7a4d7c;
 }
@@ -138,3 +148,4 @@ main a:hover {
     margin-right: auto;
     width: 70%;
 }
+
