@@ -149,3 +149,49 @@ main a:hover {
     width: 70%;
 }
 
+.about-content {
+    display: flex;
+}
+
+.about-image img {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 50%;
+    border: 5px solid #7a4d7c;
+    margin-top: -20px; /* Adjust the negative margin to move the image up */
+}
+
+
+
+
+.about-text {
+    flex: 3; 
+}
+
+.about-text h2 {
+    color: #7a4d7c;
+}
+
+.about-text p {
+    margin: 10px 0;
+}
+
+.about-text ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about-text ul li {
+    margin-top: 10px;
+}
+
+.about-text ul li a {
+    color: #9433ff;
+    text-decoration: none;
+}
+
+.about-text ul li a:hover {
+    text-decoration: underline;
+}
+
