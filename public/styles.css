@@ -62,7 +62,7 @@ body {
 }
 
 header {
-    background-color: #1f1f1f;
+    background-color: #191919;
     padding: 10px;
     text-align: center;
     z-index: 1000;
@@ -145,6 +145,7 @@ main a:hover {
     flex-direction: row-reverse;
 }
 
+/* Images */
 .about-image {
     margin-left: 20px;
     margin-right: 30px;
@@ -157,6 +158,9 @@ main a:hover {
     border: 5px solid #7a4d7c;
 }
 
+.space-image{
+    margin: 10px; /* Adjust the space around images */
+}
 /* Article Styles */
 .article {
     background-color: #171717;
@@ -173,4 +177,6 @@ main a:hover {
 #Articles a:hover {
     color: #9433ff;
 }
+
+
 
