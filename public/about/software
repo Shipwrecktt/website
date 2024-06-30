@@ -9,21 +9,21 @@
 </head>
 <body>
     <div class="sidebar">
-        <h2>Table of Contents</h2>
+      <h2>Table of Contents</h2><hr>
         <ul>
             <li><a href="../index.html#welcome">Welcome</a></li>
             <li><a href="../index.html#about">About Me</a></li>
-            <li><a href="../index.html#Articles">Articles</a></li>
             <li><a href="../index.html#contact">Reach out</a></li>
         </ul>
     </div>
     <div class="content">
         <header>
-            <h1><a href ="https://shipwreckt.co.uk">Shipwreckt</a></h1>
+          <h1><a href ="https://shipwreckt.co.uk">Shipwreckt</a></h1><hr>
             <nav>
                 <ul>
                     <li><a href="../index.html">Home</a></li>
-                    <li><a href="../index.html#projects">projects</a></li>
+                    <li><a href="../index.html#projects">Projects</a></li>
+                    <li><a href="../index.html#Articles">Articles</a></li>
                     <li><a href="../index.html#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -31,7 +31,7 @@
         <main id="main-content">
                     <h2>Software</h2>
             <h3>Linux distro</h3>
-            I use arch, mainly because I am making my own work environment and I can pick what
+            I use <a href="https://archlinux.org/">arch</a>, mainly because I am making my own work environment and I can pick what
             applications I want to install instead of some linux distro that does it for me, the
             beauty of Arch Linux is that you're held responsible nothing happens unless you let it
             happen. There is a learning curve but when you break it, it is more than worth it for
