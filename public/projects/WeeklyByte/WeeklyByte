@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shipwreckt</title>
-    <link rel="icon" href="../../Images/logo.jpg" type="image/x-icon">
+    <link rel="icon" href="../../Images/misc/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../../styles.css">
 </head>
 <body>
@@ -19,10 +19,10 @@
             <h1><a href ="https://shipwreckt.co.uk">Shipwreckt</a></h1><hr>
             <nav>
                 <ul>
-                    <li><a href="../../index.html">Home</a></li>
-                    <li><a href="../../index.html#projects">Projects</a></li>
-                    <li><a href="../../index.html#Articles">Articles</a></li>
-                    <li><a href="../../index.html#contact">Contact</a></li>
+                    <li><a href="../../index">Home</a></li>
+                    <li><a href="../../index#projects">Projects</a></li>
+                    <li><a href="../../index#Articles">Articles</a></li>
+                    <li><a href="../../index#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -30,9 +30,9 @@
                             <h3>Weekly Byte </h3>
 	    <p>The weekly byte is a kind of news thing I do each week, it covers some software and hardware I like and a weekly distro. There is also the odd bit of news if I think it is intresting but overall this is just so I can learn more about the Linux and programming world. </p>
 
-        <li><a href="2024/issue0WB.html">Issue 0</a></li>
-        <li><a href="2024/issue1WB.html">Issue 1</a></li>
-        <li><a href="2024/issue2WB.html">Issue 2</a></li>
+        <li><a href="2024/issue00WB">Issue 0</a></li>
+        <li><a href="2024/issue01WB">Issue 1</a></li>
+        <li><a href="2024/issue02WB">Issue 2</a></li>
         </main>
 
     </div>

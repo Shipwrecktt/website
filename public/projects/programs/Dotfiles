@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shipwreckt</title>
-    <link rel="icon" href="../../Images/logo.jpg" type="image/x-icon">
+    <link rel="icon" href="../../Images/misc/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../../styles.css">
 </head>
 <body>
     <div class="sidebar">
       <h2>Table of Contents</h2><hr>
         <ul>
-            <li><a href="Dotfiles.html">Dotfiles</a></li>
+            <li><a href="Dotfiles">Dotfiles</a></li>
             <li><a href="https://gitlab.com/Shipwreckt/Dotfiles">Gitlab link</a></li>
         </ul>
     </div>
@@ -20,10 +20,10 @@
           <h1><a href ="https://shipwreckt.co.uk">Shipwreckt</a></h1><hr>
             <nav>
                 <ul>
-                    <li><a href="../../index.html">Home</a></li>
-                    <li><a href="../../index.html#projects">Projects</a></li>
-                    <li><a href="../../index.html#Articles">Articles</a></li>
-                    <li><a href="../../index.html#contact">Contact</a></li>
+                    <li><a href="../../index">Home</a></li>
+                    <li><a href="../../index#projects">Projects</a></li>
+                    <li><a href="../../index#Articles">Articles</a></li>
+                    <li><a href="../../index#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>

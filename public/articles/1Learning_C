@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shipwreckt</title>
-    <link rel="icon" href="../Images/logo.jpg" type="image/x-icon">
+    <link rel="icon" href="../Images/misc/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
@@ -20,10 +20,10 @@
              <hr style="width:50%;text-align:center;"> 
              <nav>
                 <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../index.html#projects">Projects</a></li>
-                    <li><a href="../index.html#Articles">Articles</a></li>
-                    <li><a href="../index.html#contact">Contact</a></li>
+                    <li><a href="../index">Home</a></li>
+                    <li><a href="../index#projects">Projects</a></li>
+                    <li><a href="../index#Articles">Articles</a></li>
+                    <li><a href="../index#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>

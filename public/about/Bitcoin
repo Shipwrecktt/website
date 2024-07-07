@@ -29,14 +29,11 @@
             </nav>
         </header>
         <main id="main-content">
-                    <h3>Hardware</h3>
-            <p>I am daily driving a <a href="https://www.notebookcheck.net/Review-Lenovo-ThinkPad-L440-Notebook.107632.0.html">ThinkPad
-            L440</a> made in 2013, its keyboard feels like heaven, definitely the best keyboard I have
-            ever used my hands just glide over it. It is durable as hell, I have dropped this thing a
-            few times no dents or scratches, I know it has a roll cage in it so this laptop will last
-            me forever. I have 8GB of RAM in this laptop
-            which I will upgrade at some point and im using a I5-4200M CPU. Overall it is an amazing
-            laptop and I believe I can use this laptop for the rest of my life.</p>
+                    <h1>Bitcoin</h1>
+                    <p>You do not need to donate to me!</p>
+                    <p>bc1qfdeuda5hl0t6yxfmlx9rkh06fwhw2x7glpx0tn5555kc0dthz53qexwath?message=Shipwreckt</p>i
+                    <img src="../Images/misc/BitcoinQrCode.png" alt="bc1qfdeuda5hl0t6yxfmlx9rkh06fwhw2x7glpx0tn5555kc0dthz53qexwath?message=Shipwreckt" width="500" hight="auto">
+                    <img sr></img>
         </main>
     </div>
     <script src="script.js"></script>
