@@ -13,8 +13,8 @@
         <hr>
         <ul>
             <li><a href="#info">Fakefetch</a></li>
-            <li><a href="#news">News</a></li>
             <li><a href="#images">Images</a></li>
+            <li><a href="#news">News</a></li>
             <li><a onclick="window.open('https://gitlab.com/Shipwreckt/Fakefetch', '_blank')">GitLab</a></li>
         </ul>
     </div>
@@ -41,14 +41,7 @@
                     <div class="about-text">
                         <h3>Background</h3>
                         <p>
-                        Fakefetch is the first real program I have ever created that I use daily apart from config
-                        files. I made fakefetch when I saw people complaining about neofetch being slow that is why
-                        I have called it fakefetch. In the start it was just 10 lines of bash echo commands which is
-                        like printing in python, so it was bascially bare theminimun, and I was not proud of this
-                        program I was like ok thats done just add it to my .bashrc and continue using Linux. After
-                        about a day I wanted to see if I could add more to it like the uptime, then comes what
-                        package manager im using and after a while I have made my own mini neofetch program that I
-                        can use on all of my computers.
+                        Fakefetch is the first real program I have ever created that I use daily apart from config files. I made fakefetch when I saw people complaining about neofetch being slow that is why I have called it fakefetch. In the start it was just 10 lines of bash with the 'echo' commands which is like 'print' function in python if you do not know, so it was bascially bare minimun, and I was not proud of this program I was like 'ok thats done just add it to my .bashrc' and continue using Linux. After about a day I wanted to see if I could add more to it like the uptime, then comes what package manager im using and after a while I just rewrote it in C and low and behold I have made my own mini neofetch program that I can use on all of my computers.
                         </p>
 
                     </div>
@@ -56,15 +49,10 @@
                 </p>
 
                <h3><b>What is Fakefetch</b></h3>
-               <p>Fakefetch is an alternative I have made to neofetch, it is written in bash script (like neofetch) but is not a billion lines long meaning it is less bloated. In the future I plan to re-write Fakefetch in the C programming language so it is faster.</p>
+               <p>Fakefetch is an alternative I have made to neofetch, it is written in the C programming language unlike neofetch which is written in bash and due to the fact I have written Fakefetch in C it is way faster then neofetch. In the future I plan to add more features to Fakefetch and make it more user friendly. I do plan on making a Tui customizer at some point to make your own fakefetch script.</p>
 
                <h3><b>Why Fakefetch?</b></h3>
-               <p>The main reason why you should use Fakefetch is because it is a very flexible program
-                being written in bash script; it is not a large program, only being one file large and does
-                not slow down your computer at all unlike Neofetch. Fakefetch is also very hackable thanks
-                to how I have commented on the code, meaning you can make your own Fakefetch versions and
-                make it do whatever you want thanks to it being licensed under the GPL, so you have the
-                right to redistribute it if you make your own versions that you can share with anybody.</p>
+               <p>The main reason why you should use Fakefetch is because it is a very flexible program being written in the C programming language; it is not a large program, only being one file large so far and does not slow down your computer at all unlike Neofetch. Fakefetch is also very hackable thanks to how I have commented on the code, meaning you can make your own Fakefetch versions and make it do whatever you want thanks to it being licensed under the GPL, so you have the right to redistribute it if you make your own versions that you can share with anybody.</p>
 
                 <h3><b>How to install</b></h3>
                 <li>Step one: The first thing you want to do is clone the gitlab project, you can do
@@ -86,6 +74,11 @@
                 <img src="../../Images/Fakefetch/orangearch.png" width="900" height="auto" class="space-image">
                 <img src="../../Images/Fakefetch/redarch.png" width="900" height="auto" class="space-image">
                 <img src="../../Images/Fakefetch/plumarch.png" width="900" height="auto" class="space-image">
+            </section>
+
+            <section id="news">
+              <h2>Great rewrite</h2><h3>Date: 8/7/2024</h3>
+              <p>First post hello there! So yesterday there was a big update to Fakefetch, which involved me basically reprogramming the whole thing in the C programming language in my efforts to understand it more. Now the program might have some missing features compared to when it was written in bash, but in the coming week I will be adding more code to it and more features, so stay tuned in!</p>
             </section>
 
 
