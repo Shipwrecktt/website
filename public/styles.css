@@ -81,6 +81,7 @@ a:hover {
 /* Media Queries for responsiveness */
 @media (max-width: 768px) {
     body {
+        max-width: 100%;
         padding: 0 10px;
     }
     
