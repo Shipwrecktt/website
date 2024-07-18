@@ -9,6 +9,7 @@ body {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 20px;
+    box-sizing: border-box;
 }
 
 header {
@@ -22,13 +23,24 @@ header {
     color: #C4A000;
 }
 
-nav ul li.logo img {
-    max-height: 70px; 
-}
-
 nav ul {
     list-style: none;
     padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #716181;
+    text-decoration: none;
+}
+
+nav ul li.logo img {
+    max-height: 70px;
 }
 
 a {
@@ -40,16 +52,6 @@ a:hover {
     text-decoration: underline;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 35px; 
-}
-
-nav ul li a {
-    color: #716181;
-    text-decoration: none;
-}
-
 .description {
     margin: 20px auto;
     font-size: 18px;
@@ -57,14 +59,14 @@ nav ul li a {
     padding: 0 10px;
 }
 
-.posts h2 {
-    font-size: 24px;
-    padding-bottom: 5px;
-}
-
 .posts {
     border-top: 1px solid #C0C0C0;
     padding-top: 10px;
+}
+
+.posts h2 {
+    font-size: 24px;
+    padding-bottom: 5px;
 }
 
 .posts ul {
@@ -75,3 +77,43 @@ nav ul li a {
 .posts ul li {
     margin-bottom: 10px;
 }
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    body {
+        padding: 0 10px;
+    }
+    
+    .title {
+        font-size: 28px;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .posts h2 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 24px;
+    }
+    
+    .description {
+        font-size: 14px;
+    }
+
+    .posts h2 {
+        font-size: 20px;
+    }
+}
+
