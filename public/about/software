@@ -26,6 +26,9 @@
       happen. There is a learning curve but when you break it, it is more than worth it for
       the amount of freedom you get from Arch.
 
+      <h3>Window manager</h3>
+      <p>For my window manager, I use <a href="https://dwm.suckless.org/">DWM</a> because it is lightweight, fast, does the job, and allows me to learn C while configuring it. What's not to like?</p>
+
        <h3>Web browser</h3>
        <p>For my web browser is <a href "https://librewolf.net/">librewolf</a> the only browser that
        really cares about your privacy, whilst yes it is annoying being logged out of everything

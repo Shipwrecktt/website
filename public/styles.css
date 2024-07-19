@@ -78,6 +78,13 @@ a:hover {
     margin-bottom: 10px;
 }
 
+.right-image {
+    float: right;
+    margin: 0 0 10px 10px;
+    width: 250px;
+    height: auto;
+}
+
 /* Media Queries for responsiveness */
 @media (max-width: 768px) {
     body {
