@@ -19,7 +19,9 @@
         </nav>
     </header>
     <main class="description">
-      <h2><b>Dotfiles</b></h2>
+      <h1><b>Dotfiles</b></h1>
+      <p>Last tested: 20/7/2024</p>
+      <hr>
       <img src="../../Images/dotfiles/Tux.png" alt="Our Lord" class="right-image">
       <h3>What are Dotfiles?</h3><p>
       The reason I have dotfiles is for a few reasons. The first is that I use my PC and a few laptops interchangeably, and having my configurations easily downloadable is a big time saver. The second reason why I have my dotfiles up is because maybe somebody is looking for a certain baseline for their configurations, and if they find it well, I am more than happy to help that person. The third reason is just in case something happens to one of my laptops or my PC. I suggest that if you have configuration files, you should back them up on your preferred git host.</p>
@@ -29,6 +31,12 @@
 
       <p>I will not go in-depth about the software I use since I have already done that on the <a href="../../about/software">software</a> page. Instead of including all my software, I have only included the essential software in the install script, as different computers serve different purposes. Additionally, I have programmed a part of the script to install any missing firmware, eliminating those annoying warning messages during package installation. While I can't guarantee this will work on all computers, it has successfully fixed all missing firmware on every computer I've <b>tested it on so far</b>. If you still encounter warning messages, please refer to the <a href="https://wiki.archlinux.org/title/Mkinitcpio#Possibly_missing_firmware_for_module_XXXX">Arch Wiki</a> page to see what firmware you need to install.</p>
 
+      <h2>Inprovments</h2>
+      <p>As far as I am aware, the only improvement I can make is getting the <a href="https://github.com/ranger/ranger">ranger</a> configuration working on the first install without the user making it work themself.</p>
+      <hr>
+      <h1>News</h1>
+      <h2>Stable install (mostly)</h2><h3>Date: 20/7/2024</h3>
+      <p>Today, I tested my install script on my test computer, and it went smoothly. I only found one problem, which was easily fixed: I forgot to use the -r option when copying files to the .config directory. The only remaining issue is with the ranger config, but apart from that, the install script is stable for anybody to use.</p>
     </main>
 </body>
 </html>
