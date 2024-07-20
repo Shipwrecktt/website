@@ -34,13 +34,13 @@ nav ul li {
     margin-right: 20px;
 }
 
+nav ul li.logo img {
+    max-height: 70px;
+}
+
 nav ul li a {
     color: #716181;
     text-decoration: none;
-}
-
-nav ul li.logo img {
-    max-height: 70px;
 }
 
 a {
@@ -91,11 +91,11 @@ a:hover {
         max-width: 100%;
         padding: 0 10px;
     }
-    
+
     .title {
         font-size: 28px;
     }
-    
+
     nav ul li {
         display: block;
         margin: 10px 0;
@@ -115,7 +115,7 @@ a:hover {
     .title {
         font-size: 24px;
     }
-    
+
     .description {
         font-size: 14px;
     }

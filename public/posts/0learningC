@@ -41,7 +41,8 @@
       <h3>Reading material</h3>
       <ul>
         <li><a href="https://mirror.parrot.sh/parrot/misc/openbooks/programming/C_Programming.pdf">C programming</a></li>
-        <li><a href="https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html#hello_002ec">Gnu C refrance manual</a></li>
+        <li><a href="https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html">Gnu C refrance manual</a></li>
+        <li><a href="https://www.w3schools.com/c/">W3schools</a></li>
       </ul>
       <h3>Videos</h3>
       <p>For privacy reasons I have used yewtu.be which for now is more private then google's youtube.</p>
