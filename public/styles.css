@@ -79,6 +79,15 @@ a:hover {
     height: auto;
 }
 
+.code-box {
+  background-color: #c8c8c8;
+  font-family: 'FreeSans', sans-serif;
+  font-size: 15px;
+  color: #000000;
+  border: 2px solid; 
+  padding: 7px;
+}
+
 /* Media Queries for responsiveness */
 @media (max-width: 768px) {
     body {

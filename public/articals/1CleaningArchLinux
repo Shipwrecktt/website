@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleaning Arch Linux</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../Images/favi.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../links.html">Links</a></li>
+                <li><a href="../projects.html">Projects</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="description">
+      <h1>How to Clean Arch Linux</h1>
+      <h3>Date: 21:7:2024</h3>
+      <hr>
+      <p>In this artical I will be telling you how to clean up your <a href="https://archlinux.org">Arch Linux system</a> in the same way I do so.</p>
+      <hr>
+      <h2>Package Cache</h2>
+      <p>The first thing you want to do is clean the Pacman cache, as Pacman does not automatically clean it. This is because Pacman retains the cache in case you need to downgrade a package or reinstall it after uninstalling. To clean the cache, use the following commands:</p>
+      <div class="code-box">
+        <p>sudo pacman -Sc # Remove packages from cache not installed</p>
+        <p>sudo pacman -Scc # Remove packages from cache both installed and not installed</p>
+      </div>
+      <p>Some people like to automate this task of cleaning the cache with <a href="https://wiki.archlinux.org/title/Pacman#Cleaning_the_package_cache">paccache</a>, but personally I would not because it is something that takes around five minutes max to do. However, it is your choice if you want to do so to avoid the trouble of doing it manually. Regardless of whether you choose to do this manually or automatically, I suggest cleaning the cache monthly.
+</p>
+      <hr>
+      <h2>Removing Orphan Packages</h2>
+      <p>Orphan packages are those installed as dependencies for other software but are no longer needed. For example, when you install <a href="https://librewolf.net/">LibreWolf</a>, it downloads a package called librewolf-debug as a dependency. Once the installation is complete, librewolf-debug becomes an orphan package because it is no longer used by LibreWolf.</p>
+
+      <div class="code-box">
+        <p>sudo pacman -Qtdq # Identify orphan packages</p>
+        <p>sudo pacman -Rns $(pacman -Qtdq) # Uninstall orphan packages</p>
+      </div>
+      <p>I suggest uninstalling Orphan packages every month or so, just like cleaning the Pacman cache.</p>
+      <hr>
+      <h2>Cache</h2>
+      <p>Sometimes you want to clean out the ~/.cache directory, as it can accumulate a large number of files from various programs on your system. The cache directory contains temporary files used by different applications to speed up their processes. In general, it is safe to delete all items in this directory, but be cautious if you have specific applications with unusual caching mechanisms. To clean the cache directory run the following command:</p>
+      <div class="code-box">
+        <p>rm -rf ~/.cache/* # Clear the cache directory</p>
+      </div>
+      <hr>
+      <p>That is more for now, I hope this artical has helped you clean your system.</p>
+
+    </main>
+</body>
+</html>
+
