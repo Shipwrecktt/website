@@ -20,7 +20,7 @@
     </header>
     <main class="description">
       <h1><b>Dotfiles</b></h1>
-      <p>Last tested: 20/7/2024</p>
+      <p>Last tested: 21/7/2024</p>
       <hr>
       <img src="../../Images/dotfiles/Tux.png" alt="Our Lord" class="right-image">
       <h3>What are Dotfiles?</h3><p>
@@ -35,7 +35,10 @@
       <p>As far as I am aware, the only improvement I can make is getting the <a href="https://github.com/ranger/ranger">ranger</a> configuration working on the first install without the user making it work themself.</p>
       <hr>
       <h1>News</h1>
-      <h2>Stable install (mostly)</h2><h3>Date: 20/7/2024</h3>
+      <h2><u>Fixing Ownership of directories and files</u></h2><h3>Date: 22/7/2024</h3>
+      <p style="margin-bottom: 60px;">Yesterday I tested the config again because I reinstalled arch on my laptop, and I noticed a problem when I wanted to change a config, it was readonly becasue mt user did not have access to the file, this is the same for the wallpaper file. So to fix this I have added a line in the install file that fixes this issue.</p>
+
+      <h2><u>Stable install (mostly)</u></h2><h3>Date: 20/7/2024</h3>
       <p>Today, I tested my install script on my test computer, and it went smoothly. I only found one problem, which was easily fixed: I forgot to use the -r option when copying files to the .config directory. The only remaining issue is with the ranger config, but apart from that, the install script is stable for anybody to use.</p>
     </main>
 </body>
