@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="icon" href="../../Images/favi.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../links.html">Links</a></li>
+                <li><a href="../../projects.html">Projects</a></li>
+                <li><a href="../../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="description">
+      <h1>Digital art</h1>
+      <p>On this page is a collection of art I have made over time. There are two categories: profile pictures and wallpapers. Have a look around, and feel free to use all this art without asking-I don't mind!</p>
+      <p>If you are curious I use <a href="https://www.gimp.org/">Gimp</a> for all of my art.</p>
+      <hr>
+      <h2>Profile pictures</h2>
+      <img src="../../Images/art/pfp/Tux_vaporwave.png" width="500px">
+      <hr>
+      <h2>Wallpapers</h2>
+      <p>As of right now my favourite wallpaper is the edit of Newyork I have done!</p>
+      <p>Dublin</p>
+      <img src="../../Images/art/wallpaper/0Dublin.jpg" width="700px" alt="Dublin">
+      <p>Newyork</p>
+      <img src="../../Images/art/wallpaper/1NewYork.jpg" width="700px" alt="Newyork">
+
+
+    </main>
+</body>
+</html>
+
