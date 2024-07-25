@@ -1,9 +1,15 @@
-This is my personal website I do hope you like it!
-The reason why I have made this website is because I love the idea of a place that I own and
-control, I can just add whatever I want to this and it is awesome !
+## **Shipwreckt.co.uk Website Repository**
 
-Some day I will get an email server working :0
+Welcome to my personal website repository! This project is licensed under the GNU Affero General Public License v3.0, giving you the freedom to copy, modify, and distribute it. Additionally, you are not required to credit this website as your template if you choose to use it.
 
-There is somethings still to do till I can fully say it is out but I am working my hardest with the
-time I have so don't judge so fast!
-link to the website: https://shipwreckt.co.uk
+### License
+
+This project is licensed under the GNU Affero General Public License v3.0. You can view the full license [here](https://www.gnu.org/licenses/agpl-3.0.html). A copy of the license should be included in this repository.
+
+### How to Clone
+
+To clone this repository, use the following command:
+
+```bash
+git clone https://gitlab.com/Shipwreckt/website
+
