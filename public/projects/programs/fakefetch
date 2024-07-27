@@ -21,7 +21,7 @@
     <main class="description">
               <h1>Fakefetch</h1><hr>
               <h3>Background</h3>
-              <img src="../../Images/Fakefetch/logo.png" class="right-image">
+              <img src="../../Images/programming/Fakefetch/logo.png" class="right-image" width="250">
               <p>Fakefetch is the first real program I have ever created that I use daily apart from config files. I made fakefetch when I saw people complaining about neofetch being slow that is why I have called it fakefetch. In the start it was just 10 lines of bash with the 'echo' commands which is like 'print' function in python if you do not know, so it was bascially bare minimun, and I was not proud of this program I was like 'ok thats done just add it to my .bashrc' and continue using Linux. After about a day I wanted to see if I could add more to it like the uptime, then comes what package manager im using and after a while I just rewrote it in C and low and behold I have made my own mini neofetch program that I can use on all of my computers.</p>
               <h3><b>What is Fakefetch</b></h3>
               <p>Fakefetch is an alternative I have made to neofetch, it is written in the C programming language unlike neofetch which is written in bash and due to the fact I have written Fakefetch in C it is way faster then neofetch. In the future I plan to add more features to Fakefetch and make it more user friendly. I do plan on making a Tui customizer at some point to make your own fakefetch script.</p>
@@ -32,7 +32,7 @@
               <p><li>Step two: after cloneing the project you want to run the setup.sh with ./setup.sh</li></p>
               <p><li>To configure Fakefetch the file is located at /bin/fakefetch</p>
               <p>Here is an example of fakefetch!</p>
-              <img src="../../Images/Fakefetch/Fakefetch.png" alt="An example of fakefetch!" width="750" height="auto"> 
+              <img src="../../Images/programming/Fakefetch/Fakefetch.png" alt="An example of fakefetch!" width="750" height="auto"> 
               <br>
               <a href="https://gitlab.com/Shipwreckt/fakefetch">Source code on Gitlab</a>
               <p>In the next upcoming updates I plan to add an IP address option and a way to configure it in ~/.config/shipwreckt for ease of use.</p>

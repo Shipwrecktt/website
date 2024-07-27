@@ -25,7 +25,7 @@
       <p>Today, I had the pleasure of trying out <a href="https://www.freebsd.org/">FreeBSD</a>, the open source, Unix-like operating system. In this post, I will share my experience with FreeBSD based on my time using it.</p>
       <h2>Instillation</h2>
       <p>Installing FreeBSD is relatively easy; you are provided with a nice graphical interface that supports mouse input. Below is a screenshot.</p>
-      <img src="../Images/BSD/bsdinstall-choose-mode.png" alt="BSD Installer" height="565px">
+      <img src="../Images/ricing/BSD/bsdinstall-choose-mode.png" alt="BSD Installer" height="565px">
       <p>I had no issues with the install script. The only problem I encountered was with using <a href="https://www.ventoy.net">Ventoy</a>; for some reason, FreeBSD does not work with Ventoy, so I had to burn it to a standard USB stick.</p>
       <p>I downloaded the <a href="https://download.freebsd.org/releases/amd64/amd64/ISO-IMAGES/14.1/FreeBSD-14.1-RELEASE-amd64-memstick.img">amd64-memstick.img</a> for my installation of FreeBSD.</p>
       <p>I encountered some internet issues because my test computer has an unusual Wi-Fi card. I resolved this by plugging in an Ethernet cable and would recommend doing the same for anyone installing FreeBSD or any other operating system for that matter. Using Ethernet makes the setup process so much faster.</p>
@@ -46,7 +46,7 @@
         <p>shipwreckt ALL=(ALL) ALL<p>
       </div>
       <p>After updating `sudo`, I was able to use the command. The next step was installing <a href="https://x.org">X.Org</a> and <a href="https://dwm.suckless.org/">dwm</a>. I didn't need a display manager (login prompt) since I could use `startx`, so I focused on installing the X.Org package and `git` to use <a href="https://gitlab.com/Shipwreckt/Dotfiles/-/tree/main/files/config/suckless/dwm?ref_type=heads">my own `dwm` configuration</a> that I uploaded there. I tested X.Org with `startx`, and it worked fine. However, when I cloned my configuration files and tried to compile `dwm`, I encountered a problem. Fortunately, it was an easy fix thanks to a helpful post on the <a href="https://forums.freebsd.org/threads/installing-dwm-manually-vs-pkg.74687/">FreeBSD forums</a>. After applying that fix, I was able to use my `dwm` setup successfully. I then checked if my two most-used programs, <a href="https://alacritty.org/">Alacritty</a> and <a href="https://librewolf.net/">Librewolf</a>, were available on FreeBSD. To my surprise, they were, and both were fully functional. Below is a photo of FreeBSD running with `neofetch` (`fakefetch` only works on Linux).</p>
-      <img src="../Images/BSD/BSDneo.png" alt="BSD with DWM" height="440px">
+      <img src="../Images/ricing/BSD/BSDneo.png" alt="BSD with DWM" height="440px">
       <h2>Conclusion</h2>
       <p>Overall, I like FreeBSD and could use it as a daily driver since it supports three of my most-used programs: `git`, `Librewolf`, and `Alacritty`. I appreciate how it works, but for now, I’m sticking with Linux because I am more comfortable with it and prefer Linux over BSD. In the future, I plan to set up a server with <a href="https://www.openbsd.org/">OpenBSD</a>, as I’ve heard excellent things about BSD servers.</p>
       <p>Thank you for reading!</p>
