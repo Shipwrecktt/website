@@ -75,8 +75,19 @@ a:hover {
 .right-image {
     float: right;
     margin: 0 0 10px 10px;
-    width: 250px;
     height: auto;
+}
+
+.left-image {
+    float: left;
+    margin: 0 0 10px 10px;
+    height: auto;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
 
 .code-box {
