@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../Images/favi.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../links.html">Links</a></li>
+                <li><a href="../projects.html">Projects</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="description">
+      <h1>What Am I Up To?</h1>
+      <p>This week, I’m planning to install Gentoo. On this Monday, I ran into an issue with the kernel installation, so I’m stepping back and will try again on Wednesday. I’m also working on programming in C. If you don’t see any updates on my GitLab, it’s because I’m still learning and experimenting on my own computer.</p>
+      <p>I’ve also bought some Linux books from a Humble Bundle that was available last month. In the coming weeks, I’ll be reading these books. Some of them cover topics beyond Linux, such as DevOps and Python, which I’m interested in learning more about.</p>
+      <p>I also need to add more content to this website, particularly more Linux-related material. I plan to expand the number of articles I have about <a href="../articles/archlist">Arch Linux</a>.</p>
+      <p>Overall pretty chill I just need to keep ontop of things and all should be good!</p>
+    </main>
+</body>
+</html>
+
