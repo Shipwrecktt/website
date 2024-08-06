@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bitcoin</title>
+    <title>What am I up too?</title>
     <link rel="stylesheet" href="../styles.css">
     <link rel="icon" href="../Images/favi.png" type="image/x-icon">
 </head>
@@ -20,10 +20,12 @@
     </header>
     <main class="description">
       <h1>What Am I Up To?</h1>
-      <p>This week, I’m planning to install Gentoo. On this Monday, I ran into an issue with the kernel installation, so I’m stepping back and will try again on Wednesday. I’m also working on programming in C. If you don’t see any updates on my GitLab, it’s because I’m still learning and experimenting on my own computer.</p>
-      <p>I’ve also bought some Linux books from a Humble Bundle that was available last month. In the coming weeks, I’ll be reading these books. Some of them cover topics beyond Linux, such as DevOps and Python, which I’m interested in learning more about.</p>
-      <p>I also need to add more content to this website, particularly more Linux-related material. I plan to expand the number of articles I have about <a href="../articles/archlist">Arch Linux</a>.</p>
-      <p>Overall pretty chill I just need to keep ontop of things and all should be good!</p>
+      <p>Last updated: 06/08/2024</p><hr>
+      <h2>Plans</h2>
+      <p>This week I am just going to reserch and mess around with random stuff as normal. Last week installing Gentoo was making me go insain, it is my fault that I cannot install it and it is ok, but it is frustraiting that I keep on making small little mistakes that mess up everything. So I am taking a break from that and I am going to be trying to install Gentoo next week when I am more clear of mind.</p>
+      <h2>Thinkpads</h2>
+      <p>I am looking for an older Thinkpad that I can Libreboot, I have always wanted to do this because having a fully free software computer would just be something nice to have! So I am going to keep an eye on ebay and such for a nice thinkpad that is on the <a href="https://libreboot.org/docs/hardware/">Libre boot compatibility list</a>. Another reason why I want to Libreboot an older Thinkpad is because I want to give it some life and ideally turn it into a faster cleaner machine!</p>
+
     </main>
 </body>
 </html>
