@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neovim index</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="icon" href="../../Images/favi.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../links.html">Links</a></li>
+                <li><a href="../projects.html">Projects</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="description">
+      <h1>Moving around in Neovim</h1>
+      <hr>
+      <h2>Basic movements</h2>
+      <p>Moving around in Neovim is pretty easy so this will not be a long tutorial!</p>
+      <p>To move around in Neovim you need to be in the 'Normal mode' where you cannot type anything.</p>
+      <ul>
+        <li>move left - h</li>
+        <li>move right - l</li>
+        <li>move up - k</li>
+        <li>move down - j</li>
+      </ul>
+      <p>Moving around in Neovim is not that hard as you can see! It might feel weird now but the more you use Neovim the more you get used to it. Now lets move onto some of the more advanced movements.</p>
+      <hr>
+      <h2>Spesific movements</h2>
+      <p>To go to spesific parts of the file is pretty easy.</p>
+      <ul>
+        <li>move to the top - gg</li>
+        <li>move to the bottom - G</li>
+        <li>move to spesific line - 2G</li> 
+        <li>move to the top of the screen - H</li>
+        <li>move to the middle of the screen - M</li>
+        <li>move to the bottom of the screen - L</li>
+      </ul>
+      <hr>
+      <center>
+      <p>That is all now you know how to move around in Neovim! </p>
+      <hr>
+      <pre text-align=center><a href="../neovimlist">Back</a>   <a href="">Next</a>
+    </main>
+</body>
+</html>
