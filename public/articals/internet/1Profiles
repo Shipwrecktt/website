@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profiles</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="icon" href="../../Images/favi.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../links.html">Links</a></li>
+                <li><a href="../../projects.html">Projects</a></li>
+                <li><a href="../../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="description">
+      <h1>Online profiles</h1>
+      <h3>Date: 08-08-2024</h3>
+      <hr>
+      <p>We all have online profiles, whether with <a href="https://about.google/?fg=1">Google</a> or <a href="twitter.com">X (Twitter)</a>; you are probably reading this to make sure your online accounts are secure, and I am here to help you do just that, so let's just get into it!</p>
+
+      <h3>The less the better</h3>
+      <p>What do I mean by this? You may be thinking, well, I mean, the fewer online accounts you have to manage, the more secure you are overall! So if you have any accounts you do not use anymore or any accounts you do not need, I would suggest deleting them.</p>
+
+      <h3>No connections!</h3>
+      <p>A lot of online services like <a href="https://www.canva.com/">Canva</a> offer an option to sign up to their service with your Google or Facebook account. Now this may seem convenient, and it is, but it is a bad idea. It is a bad idea because if your Google or Facebook accounts get hacked into, all of these connected accounts are now compromised, and you cannot do anything about it because you cannot log into the account you connected it all to. </p>
+
+      <h3>Common sense!</h3>
+      <p>Use your common sense! Do not share any of your passwords unless you absolutely have tools. If a website seems off and you feel uncomfortable, leave the website.</p>
+      <hr>
+      <center>
+      <pre text-align=center><a href="../internetlist">Back</a>   <a href="2Passwords">Next</a>
+    </main>
+</body>
+</html>
+

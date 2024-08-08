@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="icon" href="../../Images/favi.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../links.html">Links</a></li>
+                <li><a href="../../projects.html">Projects</a></li>
+                <li><a href="../../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="description">
+      <h1>Introduction</h1>
+      <h3>Date: 08-08-2024</h3>
+      <hr>
+      <p>Hello and welcome! In the following articals you will learn how I stay safe online and how I think you should probably stay safe too. So keep on reading and if you have any questions my <a href="https://matrix.to/#/@shipwreckt:matrix.org">Matrix dms</a> are always open for questions!</p>
+      <h3>Why am I writting this?</h3>
+      <p>The reason why I am writing this series of articles to share how I stay safe online and to help others become more privacy conscious and secure. </p>
+      <hr>
+      <center>
+      <pre text-align=center><a href="../internetlist">Back</a>   <a href="1Profiles">Next</a>
+    </main>
+</body>
+</html>
+

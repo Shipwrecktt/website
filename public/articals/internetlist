@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neovim index</title>
+    <title>Internet index</title>
     <link rel="stylesheet" href="../styles.css">
     <link rel="icon" href="../Images/favi.png" type="image/x-icon">
 </head>
@@ -19,15 +19,16 @@
         </nav>
     </header>
     <main class="description">
-      <h1>Neovim</h1>
-      <p>This is a collection of material I have written about the NeoVim text editor. So have a little read and see if there is anything that you like.</p>
-      <hr>
-      <h2>Why Use Neovim?</h2>
-      <p>Neovim is a fast and modern text editor with amazing documentation, which has led to a wide range of plugins being developed for it. It is also lightweight and easy to learn the basics.</p>
+      <h1>Articles about the internet</h1>
+      <p>Sometimes I write about how to stay safe online and some thoughts about the modern internet, so have a look around!</p>
       <section class="posts">
-        <h2>Tutorials</h2>
+        <h2>How to stay safe Online</h2>
+        <p>A series of articles I wrote about how I stay safe online.</p>
         <ul>
-          <li><a href="neovim/0move">How To Move in Neovim?</a></li>
+          <li>08-08-2024 - <a href="internet/0Intro">Introduction</a></li>
+          <li>08-08-2024 - <a href="internet/1Profiles">Online profiles</a></li>
+          <li>08-08-2024 - <a href="internet/2Passwords">Passwords</a></li>
+          <li>08-08-2024 - <a href="internet/3Browser">Web Browsers</a></li>
         </ul>
     </main>
 </body>
