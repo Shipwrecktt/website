@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exiting Neovim</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="icon" href="../../Images/favi.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../links.html">Links</a></li>
+                <li><a href="../../projects.html">Projects</a></li>
+                <li><a href="../../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="description">
+      <h1>How to exit Neovim!</h1>
+      <hr>
+      <p>The clasic meme, how do I exit Vim?</p>
+      <p>There are two ways to exit Neovim; both are easy to remember. The first way to leave Neovim is to leave without saving any of the changes, and the second way is to leave while saving the changes.</p>
+      <ul>
+        <li>Leave without saving - ZQ</li>
+        <li>Leave with saving - ZZ</li>
+      </ul>
+      <p>To people who have used Vim-based text editors, this might look strange to you because you are used to using :q and :q! And whilst those do still work, using ZZ and ZQ is way more dynamic and just smoother in the long run.</p>
+      <center>
+      <hr>
+      <pre text-align=center><a href="../neovimlist">Back</a>
+    </main>
+</body>
+</html>

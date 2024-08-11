@@ -27,7 +27,9 @@
       <section class="posts">
         <h2>Tutorials</h2>
         <ul>
-          <li><a href="neovim/0move">How To Move in Neovim?</a></li>
+          <li><a href="neovim/0move">How to move around</a></li>
+          <li><a href="neovim/1modes">Diffrent modes</a></li>
+          <li><a href="neovim/2exitingnvim">How exit</a></li>
         </ul>
     </main>
 </body>

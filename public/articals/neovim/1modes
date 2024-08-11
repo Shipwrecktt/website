@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modes in Neovim</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="icon" href="../../Images/favi.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../links.html">Links</a></li>
+                <li><a href="../../projects.html">Projects</a></li>
+                <li><a href="../../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="description">
+      <h1>Neovim modes</h1>
+      <hr>
+      <p>There are three main modes in Neovim that you really need to know about.</p>
+      <h3>Normal mode</h3>
+      <p>Normal mode is the default mode in Neovim; it is the mode you start off in, and it allows you to enter other modes. You can also execute commands in this mode. If you are in another mode, all you need to do to enter normal mode is press the <b>ESC</b> key.</p>
+
+      <h3>Insert mode</h3>
+      <p>This is probably the second-most-used mode that every person who uses Neovim uses. In this mode, it allows you to type, and that is really it!</p>
+      <ul>
+        <li>Switches into insert mode where you are - i</li>
+        <li>Switches into insert mode on a new line below the current line - o</li>
+        <li>Switches into insert mode on a new line above the current line - O</li>
+        <li>Switches into insert mode on the next charicter - a</li>
+        <li>Switches to insert mode at the start of the line - I</li>
+        <li>Switches to insert mode at the end of the line - A</li>
+      </ul>
+      <font color="red">Remember to exit insert mode to normal mode press <b>ESC</b></font>
+      <h3>Visual mode</h3>
+      <p>In this mode, you are allowed to select text, kind of like how you can click and drag and select this text on your web browser; this mode allows you to copy, paste, and delete the selected text!</p>
+      <ul>
+        <li>To enter press - v</li>
+      </ul>
+      <hr>
+      <p>That is all for modes. There are a few more modes, like replace mode, that just allows you to replace a character, but these modes are not really used, at least by me.</p>
+
+      <center>
+      <hr>
+      <pre text-align=center><a href="../neovimlist">Back</a>   <a href="2exitingnvim">Next</a>
+    </main>
+</body>
+</html>
