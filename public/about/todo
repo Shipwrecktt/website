@@ -21,8 +21,10 @@
     <main class="description">
       <h1>What Am I Up To?</h1>
       <p>Last updated: 06/08/2024</p><hr>
+
       <h2>Plans</h2>
-      <p>This week I am just going to reserch and mess around with random stuff as normal. Last week installing Gentoo was making me go insain, it is my fault that I cannot install it and it is ok, but it is frustraiting that I keep on making small little mistakes that mess up everything. So I am taking a break from that and I am going to be trying to install Gentoo next week when I am more clear of mind.</p>
+      <p>I did try install Gentoo again and it did not go good, it is annoying but I tried my best. The only porblem I had was installing Grub, I tried some other boot loaders but none worked, it is so annoying that I spent all that time trying to install it for it just not to work. but it is ok atleast I learnt! But sadly I think Gentoo is something I try in the future when I am more tech litterate. But for now I am happy with Arch Linux!</p>
+
       <h2>Thinkpads</h2>
       <p>I am looking for an older Thinkpad that I can Libreboot, I have always wanted to do this because having a fully free software computer would just be something nice to have! So I am going to keep an eye on ebay and such for a nice thinkpad that is on the <a href="https://libreboot.org/docs/hardware/">Libre boot compatibility list</a>. Another reason why I want to Libreboot an older Thinkpad is because I want to give it some life and ideally turn it into a faster cleaner machine!</p>
 

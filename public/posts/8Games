@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DWM</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../Images/favi.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../links.html">Links</a></li>
+                <li><a href="../projects.html">Projects</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="description">
+      <h2>Vidio games</h2>
+      <h3>Date: 16/8/2024</h3>
+      <hr>
+      <p>I am going to try stop playing video games because it is just distracting me from working and learning. So I have uninstalled <a href="https://store.steampowered.com">Steam</a> on my main gaming computer. While I do love video games a lot and I have been playing them since I was a little kid, its something I should limit myself too, I will still play some games, mostly rythem games but apart from that I will be trying to stop playing video games all together.</p>
+
+      <p>I might try modify some open source games and try make mods for them or something like that but apart from that I am quitting! That is really all, thank you for reading and I will try put out some more work!</p> 
+    </main>
+</body>
+</html>
+
