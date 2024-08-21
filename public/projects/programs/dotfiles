@@ -20,7 +20,7 @@
     </header>
     <main class="description">
       <h1><b>Dotfiles</b></h1>
-      <p>Last tested: 21/7/2024</p>
+      <p>Last tested: 21-08-2024</p>
       <hr>
       <img src="../../Images/tux/Tux.png" alt="Our Lord" class="right-image">
       <h3>What are Dotfiles?</h3><p>
@@ -31,14 +31,17 @@
 
       <p>I will not go in-depth about the software I use since I have already done that on the <a href="../../about/software">software</a> page. Instead of including all my software, I have only included the essential software in the install script, as different computers serve different purposes. Additionally, I have programmed a part of the script to install any missing firmware, eliminating those annoying warning messages during package installation. While I can't guarantee this will work on all computers, it has successfully fixed all missing firmware on every computer I've <b>tested it on so far</b>. If you still encounter warning messages, please refer to the <a href="https://wiki.archlinux.org/title/Mkinitcpio#Possibly_missing_firmware_for_module_XXXX">Arch Wiki</a> page to see what firmware you need to install.</p>
 
-      <h2>Inprovments</h2>
-      <p>As far as I am aware, the only improvement I can make is getting the <a href="https://github.com/ranger/ranger">ranger</a> configuration working on the first install without the user making it work themself.</p>
       <hr>
       <h1>News</h1>
-      <h2><u>Fixing Ownership of directories and files</u></h2><h3>Date: 22/7/2024</h3>
-      <p style="margin-bottom: 60px;">Yesterday I tested the config again because I reinstalled arch on my laptop, and I noticed a problem when I wanted to change a config, it was readonly becasue mt user did not have access to the file, this is the same for the wallpaper file. So to fix this I have added a line in the install file that fixes this issue.</p>
+      <h2>Changing to starship and other improvments!</h2> <h3>Date: 21-08-2024</h3>
+      <p>It has been a month since the last update, and right now, as of today, I have finished a pretty big part of my Dotfiles! So I have switched my terminal emulator from <a href="https://alacritty.org/">Alacritty</a> to <a href="https://st.suckless.org/">st</a> by Suckless Software. The reason why I have done this is because St is just way lighter than Alacritty. I have also got the ranger configuration to work on the first install, which is amazing! And I have switched from synth-shell to starship because it is just more fun to mess around with. But that is all for this update!</p>
+      <hr>
 
-      <h2><u>Stable install (mostly)</u></h2><h3>Date: 20/7/2024</h3>
+      <h2><u>Fixing Ownership of directories and files</u></h2><h3>Date: 22-7-2024</h3>
+      <p style="margin-bottom: 60px;">Yesterday I tested the config again because I reinstalled arch on my laptop, and I noticed a problem when I wanted to change a config, it was readonly becasue mt user did not have access to the file, this is the same for the wallpaper file. So to fix this I have added a line in the install file that fixes this issue.</p>
+      <hr>
+
+      <h2><u>Stable install (mostly)</u></h2><h3>Date: 20-7-2024</h3>
       <p>Today, I tested my install script on my test computer, and it went smoothly. I only found one problem, which was easily fixed: I forgot to use the -r option when copying files to the .config directory. The only remaining issue is with the ranger config, but apart from that, the install script is stable for anybody to use.</p>
     </main>
 </body>
