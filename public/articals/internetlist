@@ -22,13 +22,14 @@
       <h1>Articles about the internet</h1>
       <p>Sometimes I write about how to stay safe online and some thoughts about the modern internet, so have a look around!</p>
       <section class="posts">
+        
         <h2>How to stay safe Online</h2>
         <p>A series of articles I wrote about how I stay safe online.</p>
         <ul>
-          <li>08-08-2024 - <a href="internet/0Intro">Introduction</a></li>
-          <li>08-08-2024 - <a href="internet/1Profiles">Online profiles</a></li>
-          <li>08-08-2024 - <a href="internet/2Passwords">Passwords</a></li>
-          <li>08-08-2024 - <a href="internet/3Browser">Web Browsers</a></li>
+          <li>08-08-2024 - <a href="internet/safety/00Intro">Introduction</a></li>
+          <li>08-08-2024 - <a href="internet/safety/01Profiles">Online profiles</a></li>
+          <li>08-08-2024 - <a href="internet/safety/02Passwords">Passwords</a></li>
+          <li>08-08-2024 - <a href="internet/safety/03Browser">Web Browsers</a></li>
         </ul>
     </main>
 </body>
