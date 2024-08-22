@@ -21,7 +21,7 @@
     </header>
     <main class="description">
       <h2>Messing Around with servers</h2>
-      <h3>Date: 24/7/2024</h3>
+      <h3>Date: 24-7-2024</h3>
       <hr>
       <p>Originally, this article was going to be about setting up an email server. However, due to problems with my router and the fact that I do not like the idea of hosting an email server locally in case it goes down, I have chosen not to do that. Instead, I have decided to host a different server on my local network, and that is what this article is about!</p>
               <p>Below is my server; it is a ThinkCentre. I do not really care about the specs because it is not going to be doing much, but it does have an Intel i7, so it’s not bad at all for what I am doing. It has 8 cores and 16 GB of memory, which should be more than enough for what I am doing.</p>

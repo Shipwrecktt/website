@@ -20,7 +20,7 @@
     </header>
     <main class="description">
       <h2>Switching to DWM</h2>
-      <h3>Date: 13/7/2024</h3>
+      <h3>Date: 13-7-2024</h3>
       <hr>
       <p>It has been a little while since I have updated or added anything to the website, and this is due to the fact that I have been working on my configs, and so far I have them in such a way that I am happy with them. I have also been switching from <a href="https://qtile.org/">Qtile</a> to <a href="https://i3wm.org/">i3</a> to, well, <a href="https://dwm.suckless.org/">Dwm</a> now, which has been fun! The reason why I have switched to DWM is because it is written in C, and as my last article stated, I am currently learning C, so it's a win-win: I get a highly hackable window manager, and I get to learn more about C. I also just like how small it is in size because I have been considering doing a few projects in the future, that being, trying <a href="https://www.freebsd.org/">BSD</a>, <a href="https://www.linuxfromscratch.org/">LFS</a>, and <a href="https://www.gentoo.org/">Gentoo</a>, which DWM works on all of them; since two of them (LFS and Gentoo) require me to compile everything, this has not been the worst decision I have made.</p>
       <p><br>Here is my DWM config on my PC</p>

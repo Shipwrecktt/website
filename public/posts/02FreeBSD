@@ -20,7 +20,7 @@
     </header>
     <main class="description">
       <h2>Trying out FreeBSD</h2>
-      <h3>Date: 22/7/2024</h3>
+      <h3>Date: 22-7-2024</h3>
       <hr>
       <p>Today, I had the pleasure of trying out <a href="https://www.freebsd.org/">FreeBSD</a>, the open source, Unix-like operating system. In this post, I will share my experience with FreeBSD based on my time using it.</p>
       <h2>Instillation</h2>

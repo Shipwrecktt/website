@@ -20,7 +20,7 @@
     </header>
     <main class="description">
       <h2>Using Yubikey</h2>
-      <h3>Date: 03/8/2024</h3>
+      <h3>Date: 03-8-2024</h3>
       <hr>
       <p>For a while now, I have wanted to own a <a href="https://www.yubico.com/">Yubikey</a>, but the price has always held me back since they cost a lot of money. After scouring ebay for a while, I finally found a good deal on one. I bought it, and now I’ve had the chance to mess around with it.</p>
       <img src="../Images/computers/yubikey.png" width="780px" alt="Yubikey 4 photo">
