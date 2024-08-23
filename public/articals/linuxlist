@@ -26,9 +26,16 @@
         <ul>
           <li>05-08-2024 - <a href="linux/2LinuxFileHierarchy">Linux File Hierarchy</a></li>
         </ul>
-        <h2>Tutorials</h2>
+
+        <h2>Media tutorials</h2>
         <ul>
-          <li>21-07-2024 - <a href="linux/1CleaningArchLinux">How To Clean Arch Linux</a></li>
+          <li>23-08-2024 - <a href="linux/media/00cd">How to burn optical media in Linux 💿</a></li>
+        </ul>
+
+        <h2>Arch Linux tutorials</h2>
+        <ul>
+          <li>21-07-2024 - <a href="linux/ArchLinux/00CleaningArchLinux">How To Clean Arch Linux 🧹</a></li>
+          <li>23-08-2024 - <a href="linux/ArchLinux/01SpeedingUpArchLinux">Speeding up Pacman 🚗</a></li>
         </ul>
     </main>
 </body>

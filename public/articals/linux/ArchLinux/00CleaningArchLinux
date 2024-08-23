@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cleaning Arch Linux</title>
-    <link rel="stylesheet" href="../../styles.css">
-    <link rel="icon" href="../../Images/favi.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../../styles.css">
+    <link rel="icon" href="../../../Images/favi.png" type="image/x-icon">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="../../index.html">Home</a></li>
-                <li><a href="../../links.html">Links</a></li>
-                <li><a href="../../projects.html">Projects</a></li>
-                <li><a href="../../contact.html">Contact</a></li>
+                <li><a href="../../../index.html">Home</a></li>
+                <li><a href="../../../links.html">Links</a></li>
+                <li><a href="../../../projects.html">Projects</a></li>
+                <li><a href="../../../contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main class="description">
-      <h1>How to Clean Arch Linux</h1>
-      <h3>Date: 21:7:2024</h3>
+      <h1>How to Clean Arch Linux 🧹</h1>
+      <h3>Date: 21-7-2024</h3>
       <p>In this artical I will be telling you how to clean up your <a href="https://archlinux.org">Arch Linux system</a> in the same way I do so.</p>
       <hr>
       <h2>Package Cache</h2>
@@ -47,7 +47,9 @@
         <p>rm -rf ~/.cache/* # Clear the cache directory</p>
       </div>
       <hr>
-      <p>That is more for now, I hope this artical has helped you clean your system.</p>
+      <center>
+      <p>That is all for now, I hope this artical has helped you clean your system.</p>
+      <pre text-align=center>  <a href="../../linuxlist">Back</a>
     </main>
 </body>
 </html>
