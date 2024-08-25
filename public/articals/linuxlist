@@ -38,6 +38,11 @@
           <li>21-07-2024 - <a href="linux/ArchLinux/00CleaningArchLinux">How To Clean Arch Linux 🧹</a></li>
           <li>23-08-2024 - <a href="linux/ArchLinux/01SpeedingUpArchLinux">Speeding up Pacman 🚗</a></li>
         </ul>
+
+        <h2>Tools</h2>
+        <ul>
+          <li>25-08-2024 - <a href="linux/tools/00Ventoy">Ventoy install with Linux 🐧🔌</a></li>
+        </ul>
     </main>
 </body>
 </html>
