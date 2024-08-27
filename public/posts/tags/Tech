@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linux 🐧</title>
+    <title>Tech 🧑‍💻</title>
     <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" href="../../Images/favi.png" type="image/x-icon">
 </head>
@@ -20,21 +20,18 @@
     </header>
     <main>
       <div class="tags">
-        <center>
-          <h1>Linux 🐧</h1>
-        </center>
-        <p>26-08-2024 - <a href="../08ArchServer">Arch Server!</a></p>
-        <p>17-08-2024 - <a href="../07FishShell">Trying Out Fish 🐟</a></p>
-        <p>27-07-2024 - <a href="../04Servers">Messing With Servers</a></p>
-        <p>13-07-2024 - <a href="../00dwm">Switching to DWM</a></p>
+      <center>
+        <h1>Tech 🧑‍💻</h1>
+      </center>
+      <p>27-07-2024 - <a href="../02FreeBSD">Messing with servers</a></p>
+      <p>22-07-2024 - <a href="../02FreeBSD">Trying out FreeBSD</a></p>
+      <p>13-07-2024 - <a href="../00dwm">Switching to DWM</a></p>
       </div>
 
       <div class="tags2"><hr>
         <h3>Other tags</h3>
-        <pre><a href="Hardware">Hardware 🖥</a> | <a href="BSD">BSD 😈</a> | <a href="Tech">Tech 🧑‍💻</a> |</pre>
+        <pre><a href="Linux">Linux 🐧</a> | <a href="BSD">BSD 😈</a> | <a href="Hardware">Hardware 🖥</a> |</pre>
       </div>
-
     </main>
 </body>
 </html>
-
