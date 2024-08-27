@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Linuxx file hierarchy</title>
-    <link rel="stylesheet" href="../../styles.css">
-    <link rel="icon" href="../../Images/favi.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../../styles.css">
+    <link rel="icon" href="../../../Images/favi.png" type="image/x-icon">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="../../index.html">Home</a></li>
-                <li><a href="../../links.html">Links</a></li>
-                <li><a href="../../projects.html">Projects</a></li>
-                <li><a href="../../contact.html">Contact</a></li>
+                <li><a href="../../../index.html">Home</a></li>
+                <li><a href="../../../links.html">Links</a></li>
+                <li><a href="../../../projects.html">Projects</a></li>
+                <li><a href="../../../contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -79,7 +79,10 @@
       <p>The /var directory is used to store variable data that changes all the time while yout system is powered on. Important things such as logs, mail spools, and temporary files. If you are running a server I do suggest giving /var its own partition because it allows for easy backup and recovery.</p><hr>
       <h2>Overview</h2>
       <p>This has took me a while to write because I have had to double check everything and put it in my own words so I understand it! If there are any issues please with this artical please report it.</p>
-      <p>As normal thank you for reading!</p>
+      <p>As normal thank you for reading!</p><hr>
+      <center>
+      <pre text-align=center>  <a href="../../linuxlist">Back</a>
+
     </main>
 </body>
 </html>

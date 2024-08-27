@@ -24,7 +24,8 @@
       <section class="posts">
         <h2>Infomation about Linux</h2>
         <ul>
-          <li>05-08-2024 - <a href="linux/2LinuxFileHierarchy">Linux File Hierarchy</a></li>
+          <li>05-08-2024 - <a href="linux/info/00LinuxFileHierarchy">Linux File Hierarchy</a></li>
+          <li>27-08-2024 - <a href="linux/info/01Terminal">Why the terminal will always beat the GUI 👨‍💻</a></li>
         </ul>
 
         <h2>Media tutorials</h2>
