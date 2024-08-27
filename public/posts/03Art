@@ -31,8 +31,9 @@
       <p>Here are all the wallpapers I have done so far! I think the Newyork image is the best one so far.</p>
       <img src="../Images/art/wallpaper/0Dublin.jpg" width="700px" alt="Dublin">
       <img src="../Images/art/wallpaper/1NewYork.jpg" width="700px" alt="Newyork">
-      <hr>
-      <p>As normal thank you for reading!</p>
+      <center><hr>
+        <pre><a href="../index.html">Back 🚪</a></pre>
+
 
 </body>
 </html>

@@ -35,6 +35,9 @@
 
       <p>So far the only thing I have really done with my Yubikey is set it up with <a href="https://keepassxc.org/">KeepassXC</a>, for some reason I cannot get my Google account working with it, and this is because I am under Linux, so I might need to install Windows or ChromeOS in a virtual machine and set it up, but even if then, I just have to hope it will still work on Linux because if not, well, that would be ass.</p>
       <p>That is all I am going to look more into hardware keys because well they are awesome, but that is all thank you for reading!</p>
+
+      <center><hr>
+        <pre><a href="../index.html">Back 🚪</a></pre>
     </main>
 </body>
 </html>
