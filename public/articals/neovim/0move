@@ -18,7 +18,7 @@
             </ul>
         </nav>
     </header>
-    <main class="description">
+    <main>
       <h1>Moving around in Neovim</h1>
       <hr>
       <h2>Basic movements</h2>

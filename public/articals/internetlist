@@ -18,7 +18,7 @@
             </ul>
         </nav>
     </header>
-    <main class="description">
+    <main>
       <h1>Articles about the internet</h1>
       <p>Sometimes I write about how to stay safe online and some thoughts about the modern internet, so have a look around!</p>
       <section class="posts">

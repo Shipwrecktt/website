@@ -18,7 +18,7 @@
             </ul>
         </nav>
     </header>
-    <main class="description">
+    <main>
       <h1>Neovim modes</h1>
       <hr>
       <p>There are three main modes in Neovim that you really need to know about.</p>

@@ -18,7 +18,7 @@
             </ul>
         </nav>
     </header>
-    <main class="description">
+    <main>
       <h1>Neovim</h1>
       <p>This is a collection of material I have written about the NeoVim text editor. So have a little read and see if there is anything that you like.</p>
       <hr>

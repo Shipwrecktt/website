@@ -18,7 +18,7 @@
             </ul>
         </nav>
     </header>
-    <main class="description">
+    <main>
       <h1>Linux articles 🐧</h1>
       <p>Due to the fact I plan to write more articles about LinuxI have decided to make an index to preper for the future when I do write more.</p>
       <section class="posts">

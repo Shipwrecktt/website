@@ -18,7 +18,7 @@
             </ul>
         </nav>
     </header>
-    <main class="description">
+    <main>
       <h1>How to exit Neovim!</h1>
       <hr>
       <p>The clasic meme, how do I exit Vim?</p>

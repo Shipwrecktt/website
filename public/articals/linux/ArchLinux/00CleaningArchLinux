@@ -18,7 +18,7 @@
             </ul>
         </nav>
     </header>
-    <main class="description">
+    <main>
       <h1>How to Clean Arch Linux 🧹</h1>
       <h3>Date: 21-7-2024</h3>
       <p>In this artical I will be telling you how to clean up your <a href="https://archlinux.org">Arch Linux system</a> in the same way I do so.</p>

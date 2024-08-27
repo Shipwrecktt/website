@@ -18,7 +18,7 @@
             </ul>
         </nav>
     </header>
-    <main class="description">
+    <main>
       <h1>Articles about programming</h1>
       <p>Some random articles I have wrote about programming. There is more to come so keep an eye out!</p>
       <section class="posts">

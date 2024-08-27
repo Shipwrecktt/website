@@ -47,7 +47,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.description {
+main{
   margin: 20px auto;
   font-size: 18px;
   max-width: 90%;
@@ -57,14 +57,14 @@ a:hover {
 .tags {
   margin: 20px auto;
   font-size: 18px;
-  max-width: 32%;
+  max-width: 33%;
   padding: 0 10px;
 }
 
 .tags2 {
   margin: 20px auto;
   font-size: 18px;
-  max-width: 60%;
+  max-width: 68%;
   padding: 0 10px;
 }
 

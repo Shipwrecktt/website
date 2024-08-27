@@ -18,7 +18,7 @@
             </ul>
         </nav>
     </header>
-    <main class="description">
+    <main>
       <h3>Linux distro</h3>
       I use <a href="https://archlinux.org/">Arch Linux</a>, mainly because I am able to create my own work environment and I can pick what
       applications I want to install instead of most linux distros that does it for the user, the
