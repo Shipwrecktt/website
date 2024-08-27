@@ -19,7 +19,7 @@
         </nav>
     </header>
     <main class="description">
-      <h1>Linux articles</h1>
+      <h1>Linux articles 🐧</h1>
       <p>Due to the fact I plan to write more articles about LinuxI have decided to make an index to preper for the future when I do write more.</p>
       <section class="posts">
         <h2>Infomation about Linux</h2>
@@ -31,6 +31,7 @@
         <ul>
           <li>23-08-2024 - <a href="linux/media/00cd">Burning optical media in Linux 💿</a></li>
           <li>24-08-2024 - <a href="linux/media/01BurningIsos">Burning an ISO to a USB stick 💾</a></li>
+          <li>27-08-2024 - <a href="linux/media/02FormattingUSB">Formatting USBs with Linux 🔌🔥</a></li>
         </ul>
 
         <h2>Arch Linux tutorials</h2>
