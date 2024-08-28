@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en-GB">
+  <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Shipwreckt">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Software</title>
     <link rel="stylesheet" href="../styles.css">
     <link rel="icon" href="../Images/favi.png" type="image/x-icon">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../links.html">Links</a></li>
-                <li><a href="../projects.html">Projects</a></li>
-                <li><a href="../contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../links.html">Links</a></li>
+          <li><a href="../projects.html">Projects</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <h3>Linux distro</h3>
@@ -29,35 +30,35 @@
       <h3>Window manager</h3>
       <p>For my window manager, I use <a href="https://dwm.suckless.org/">DWM</a> because it is lightweight, fast, does the job, and allows me to learn C while configuring it. There is also a large selection of patches to DWM meaning you can modify it to your hearts content! What's not to like?</p>
 
-       <h3>Web browser</h3>
-       <p>For my web browser is <a href "https://librewolf.net/">librewolf</a>, the only browser that
-       really cares about your privacy, whilst yes it is annoying being logged out of everything
-       but this is why password managers exist.
-       exist I just log on in a matter of seconds. I don't use many extensions but the ones I do use are
-       <a href "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">ublock</a> ,
-       <a href "https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/">KeePassXC</a> ,
-       <a href "https://addons.mozilla.org/en-US/firefox/addon/darkreader/">Dark reader</a>.</p>
+      <h3>Web browser</h3>
+      <p>For my web browser is <a href "https://librewolf.net/">librewolf</a>, the only browser that
+      really cares about your privacy, whilst yes it is annoying being logged out of everything
+      but this is why password managers exist.
+      exist I just log on in a matter of seconds. I don't use many extensions but the ones I do use are
+      <a href "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">ublock</a> ,
+      <a href "https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/">KeePassXC</a> ,
+      <a href "https://addons.mozilla.org/en-US/firefox/addon/darkreader/">Dark reader</a>.</p>
 
-       <h3>IDE</h3>
-       <p>My IDE is Neovim, the reason why I use Neovim instead of something like <b>Visual Studio Code</b> is because it is simple and the keybinds are to die for, so if you want a simple easy IDE, I would suggest Neovim !</p>
+      <h3>IDE</h3>
+      <p>My IDE is Neovim, the reason why I use Neovim instead of something like <b>Visual Studio Code</b> is because it is simple and the keybinds are to die for, so if you want a simple easy IDE, I would suggest Neovim !</p>
 
-       <h3>Password manager</h3>
-       <p>I use <a href="https://keepassxc.org/">KeePassXC</a> for managing my passwords, I
-       used to use bitwarden but after a while I just thought I did not want my passwords in
-       somebody else's server so I switched to KeePassXC because it is offline, I use syncthing
-       to sync all my passwords from my laptop to my phone.</p>
+      <h3>Password manager</h3>
+      <p>I use <a href="https://keepassxc.org/">KeePassXC</a> for managing my passwords, I
+      used to use bitwarden but after a while I just thought I did not want my passwords in
+      somebody else's server so I switched to KeePassXC because it is offline, I use syncthing
+      to sync all my passwords from my laptop to my phone.</p>
 
-       <h3>File manager</h3>
-       <p>For my file manager, I mostly use <a href ="https://github.com/ranger/ranger">Ranger</a>. The main reason I use Ranger is because it uses Vim keybinds and well I just love Vim keybinds! The only problem is I still sometimes use thunar for small things like mounting USB sticks and interacting with websites, but apart from that I only really use Ranger!</p>
+      <h3>File manager</h3>
+      <p>For my file manager, I mostly use <a href ="https://github.com/ranger/ranger">Ranger</a>. The main reason I use Ranger is because it uses Vim keybinds and well I just love Vim keybinds! The only problem is I still sometimes use thunar for small things like mounting USB sticks and interacting with websites, but apart from that I only really use Ranger!</p>
 
-       <h3>App launcher</h3>
-       <p>I use <a href="https://tools.suckless.org/dmenu/">Dmenu</a> for my app launcher because it works well with DWM and is simple and small !</p> 
+      <h3>App launcher</h3>
+      <p>I use <a href="https://tools.suckless.org/dmenu/">Dmenu</a> for my app launcher because it works well with DWM and is simple and small !</p> 
 
-       <h3>Xorg or Wayland?</h3>
-       <p>I like Wayland; it is smooth and modern. But I do not think it is fully there yet, so for
-       now I am staaying with Xorg, because it just works and I have had no issues with it. In the future,
-       in about a year (2025), I will switch to Wayland because it is much more modern, but for now, Xorg is my go-to.</p>
+      <h3>Xorg or Wayland?</h3>
+      <p>I like Wayland; it is smooth and modern. But I do not think it is fully there yet, so for
+      now I am staaying with Xorg, because it just works and I have had no issues with it. In the future,
+      in about a year (2025), I will switch to Wayland because it is much more modern, but for now, Xorg is my go-to.</p>
     </main>
-</body>
+  </body>
 </html>
 

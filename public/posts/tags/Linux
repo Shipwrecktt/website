@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en-GB">
+  <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Shipwreckt">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Linux 🐧</title>
     <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" href="../../Images/favi.png" type="image/x-icon">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="../../index.html">Home</a></li>
-                <li><a href="../../links.html">Links</a></li>
-                <li><a href="../../projects.html">Projects</a></li>
-                <li><a href="../../contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="../../links.html">Links</a></li>
+          <li><a href="../../projects.html">Projects</a></li>
+          <li><a href="../../contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <div class="tags">
@@ -33,8 +34,7 @@
         <h3>Other tags</h3>
         <pre><a href="Hardware">Hardware 🖥</a> | <a href="BSD">BSD 😈</a> | <a href="Tech">Tech 🧑‍💻</a> |</pre>
       </div>
-
     </main>
-</body>
+  </body>
 </html>
 

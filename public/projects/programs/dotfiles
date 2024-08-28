@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en-GB">
+  <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Shipwreckt">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dotfiles</title>
     <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" href="../../Images/favi.png" type="image/x-icon">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="../../index.html">Home</a></li>
-                <li><a href="../../links.html">Links</a></li>
-                <li><a href="../../projects.html">Projects</a></li>
-                <li><a href="../../contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="../../links.html">Links</a></li>
+          <li><a href="../../projects.html">Projects</a></li>
+          <li><a href="../../contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <h1><b>Dotfiles</b></h1>
@@ -44,6 +45,6 @@
       <h2><u>Stable install (mostly)</u></h2><h3>Date: 20-7-2024</h3>
       <p>Today, I tested my install script on my test computer, and it went smoothly. I only found one problem, which was easily fixed: I forgot to use the -r option when copying files to the .config directory. The only remaining issue is with the ranger config, but apart from that, the install script is stable for anybody to use.</p>
     </main>
-</body>
+  </body>
 </html>
 

@@ -1,23 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en-GB">
+  <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Shipwreckt">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Issue 1</title>
     <link rel="stylesheet" href="../../../../styles.css">
     <link rel="icon" href="../../../../Images/favi.png" type="image/x-icon">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="../../../../index.html">Home</a></li>
-                <li><a href="../../../../links.html">Links</a></li>
-                <li><a href="../../../../projects.html">Projects</a></li>
-                <li><a href="../../../../contact.html">Contact</a></li>
-                <li><a href="../weeklybyte">Back</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="../../../../index.html">Home</a></li>
+          <li><a href="../../../../links.html">Links</a></li>
+          <li><a href="../../../../projects.html">Projects</a></li>
+          <li><a href="../../../../contact.html">Contact</a></li>
+          <li><a href="../weeklybyte">Back</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <h2>Weekly byte<br> by shipwreckt<br> </h2>
@@ -29,22 +30,22 @@
       <hr>
       <h3>Pros</h3>
       <p>Ubuntu is rather easy to install and use, from my experience when I installed it there were no issues and the setup was seamless, all the default software worked and the Ubuntu store installed apps. In terms of usability it is very usable and I can see why many people use it.
-</p>  
+      </p>  
       <p>Ubuntu has been alive for 19 years as of today and overtime it has amassed a giant community of people world wide, it is available in over languages even obscure languages like Irish Gaelic.</p>
       <p>Since Ubuntu has a large community this means that there are a lot of support, if you have an issue there is a high chance somebody else has encountered the same problem and has posted it online and you can see the solution yourself.</p>
       <hr>
       <h3>Cons</h3>
       <p>The Ubuntu Snap Store is proprietary; this is bad for a Linux app store because Linux is supposed to be an outlier in a sea of proprietary operating systems. Over time, Canonical has been starting to force snap packages instead of apt packages. This is bad because snaps run slower and have a larger footprint. Just because of this, I personally would not use Ubuntu and instead use something like Linux Mint.</p>
       <p>In the past, Ubuntu has been known to spy on its users. They also have a lot of proprietary code in the
-distro, so we don't even know what that code is doing</p>
+      distro, so we don't even know what that code is doing</p>
       <p>Ubuntu comes with a lot; some might say too much. While it is not as bloated as Windows, it still
-comes with a lot of software that the normal user does not need, but at the same time, if you don't
-care about space and you have optimised systemd on Ubuntu, this should not be a problem.
-</p>
+      comes with a lot of software that the normal user does not need, but at the same time, if you don't
+      care about space and you have optimised systemd on Ubuntu, this should not be a problem.
+      </p>
       <hr>
       <h3>Who would I suggest Ubuntu to?</h3>
       <p>I would suggest ubuntu for people who are new to the linux world and need a bit of hand holding tosee if they like linux or not. I would also suggest ubuntu to people who just want to use and old computer but don't really care about Linux.</p>
-      
+
       Ubuntu website link: <a href "https://ubuntu.com/">Ubuntu.com </a>
 
       <hr>
@@ -54,10 +55,10 @@ care about space and you have optimised systemd on Ubuntu, this should not be a 
       <p>This weeks hardware is the keyboard I have been using since Christmas so for a couple of months now and it is called the "Ducky one mini" whilst the sound is average it has a really nice feeling and you do not need to install any dumb software to change the colours you can just change then on the keyboard by pressing the function and alt key. There are also different modes you can put it in like random colours and such but I prefer solid colours, I would recommend the ducky one mini to anyone who wants an alright keyboard, I got mine for £20 ($24) second hand and I love it so if you are in the market for a keyboard have a look at the Ducky one mini.</p>
       <h3><b>Software</h3>
       <p>This weeks software is a  piece of software is F-droid the one stop shop for all your libre and free
-software applications F-droid can be installed on any android phone and as mentioned is an app
-store for free and libre code, personally I would suggest "table habit" it lets you forge good
-habits and break old ones!</p>
+      software applications F-droid can be installed on any android phone and as mentioned is an app
+      store for free and libre code, personally I would suggest "table habit" it lets you forge good
+      habits and break old ones!</p>
     </main>
-</body>
+  </body>
 </html>
 

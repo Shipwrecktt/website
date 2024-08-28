@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en-GB">
+  <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Shipwreckt">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fakefetch</title>
     <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" href="../../Images/favi.png" type="image/x-icon">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="../../index.html">Home</a></li>
-                <li><a href="../../links.html">Links</a></li>
-                <li><a href="../../projects.html">Projects</a></li>
-                <li><a href="../../contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="../../links.html">Links</a></li>
+          <li><a href="../../projects.html">Projects</a></li>
+          <li><a href="../../contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <h1>Fakefetch</h1><hr>
@@ -41,6 +42,6 @@
       <h2>Great rewrite</h2><h3>Date: 8/7/2024</h3>
       <p>First post hello there! So yesterday there was a big update to Fakefetch, which involved me basically reprogramming the whole thing in the C programming language in my efforts to understand it more. Now the program might have some missing features compared to when it was written in bash, but in the coming week I will be adding more code to it and more features, so stay tuned in!</p>
     </main>
-</body>
+  </body>
 </html>
 

@@ -1,27 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en-GB">
+  <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Shipwreckt">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hardware</title>
     <link rel="stylesheet" href="../styles.css">
     <link rel="icon" href="../Images/favi.png" type="image/x-icon">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../links.html">Links</a></li>
-                <li><a href="../projects.html">Projects</a></li>
-                <li><a href="../contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../links.html">Links</a></li>
+          <li><a href="../projects.html">Projects</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <h3>Hardware</h3>
       <p>I am daily driving a <a href="https://www.notebookcheck.net/Review-Lenovo-ThinkPad-L440-Notebook.107632.0.html">ThinkPad L440</a> made in 2013, its keyboard feels like heaven, definitely the best keyboard I have ever used my hands just glide over it. It is durable as hell, I have dropped this thing a few times and it has gotten no dents or scratches, I know it has a roll cage in it so this laptop will last forever. I have 8GB of RAM in this laptop which I will upgrade at some point and im using a I5-4200M CPU. Overall it is an amazing laptop and I believe I can use this laptop for the rest of my life if it lasts that long!</p>
     </main>
-</body>
+  </body>
 </html>
 

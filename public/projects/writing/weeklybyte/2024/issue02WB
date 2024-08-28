@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Shipwreckt">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Issue 2</title>
     <link rel="stylesheet" href="../../../../styles.css">
     <link rel="icon" href="../../../../Images/favi.png" type="image/x-icon">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="../../../../index.html">Home</a></li>
-                <li><a href="../../../../links.html">Links</a></li>
-                <li><a href="../../../../projects.html">Projects</a></li>
-                <li><a href="../../../../contact.html">Contact</a></li>
-                <li><a href="../weeklybyte">Back</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="../../../../index.html">Home</a></li>
+          <li><a href="../../../../links.html">Links</a></li>
+          <li><a href="../../../../projects.html">Projects</a></li>
+          <li><a href="../../../../contact.html">Contact</a></li>
+          <li><a href="../weeklybyte">Back</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <h2>Weekly byte<br> Date: 2/6/2024</h2>
@@ -56,6 +57,6 @@
       <h3>Conclusion</h3>
       <p>As normal thank you for reading I do put a lot of work into writing this so I do hope you have enjoyed it</p>
     </main>
-</body>
+  </body>
 </html>
 

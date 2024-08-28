@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en-GB">
+  <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Shipwreckt">
     <title>How to act with Foss projects</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" href="../../Images/favi.png" type="image/x-icon">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="../../index.html">Home</a></li>
-                <li><a href="../../links.html">Links</a></li>
-                <li><a href="../../projects.html">Projects</a></li>
-                <li><a href="../../contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="../../links.html">Links</a></li>
+          <li><a href="../../projects.html">Projects</a></li>
+          <li><a href="../../contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <h1>How you should act with Foss projects</h1>
@@ -29,11 +30,11 @@
 
       <h3>Communication</h3>
       <p>This is the most important parts of developing any type of project because without communicaiton there is no way to know who is contributing to your code and this causes you to not understand why they have done some of the changes and additions they have made. Good communication also means keeping the users informed about what is happening with the program and its development normally through an IRC (internet relay chat) channel, but in the modern day I would suggest something like <a href="https://matrix.org/">Matrix. Please do not use <a href="https://discord.com">Discord</a> because it gives less control to the users and its just easier and safer to use an IRC or just Matrix.
-      <hr>
-      <p>For now that is all that I know how to act when working with Foss projects, if you have any suggestions becasue I know there probably is more you can contact me <a href="../../contact.html">here.</a></p>
-      <center>
-      <hr>
-      <pre text-align=center><a href="../programminglist">Back</a>
+        <hr>
+        <p>For now that is all that I know how to act when working with Foss projects, if you have any suggestions becasue I know there probably is more you can contact me <a href="../../contact.html">here.</a></p>
+        <center>
+          <hr>
+          <pre text-align=center><a href="../programminglist">Back</a>
     </main>
 </body>
 </html>

@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en-GB">
+  <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Shipwreckt">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Installing Ventoy</title>
     <link rel="stylesheet" href="../../../styles.css">
     <link rel="icon" href="../../../Images/favi.png" type="image/x-icon">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="../../../index.html">Home</a></li>
-                <li><a href="../../../links.html">Links</a></li>
-                <li><a href="../../../projects.html">Projects</a></li>
-                <li><a href="../../../contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="../../../index.html">Home</a></li>
+          <li><a href="../../../links.html">Links</a></li>
+          <li><a href="../../../projects.html">Projects</a></li>
+          <li><a href="../../../contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <h1>How to Install Ventoy with Linux 🐧🔌</h1>
@@ -49,7 +50,7 @@
         <p>cd ventoy-&lt;version&gt;/ && lsblk</p>
       </div>
       <p>Normally the USB with the lowest amount of storage will be your USB; to make sure, check the size of your USB compared to the devices listed under lsblk.</p><hr>
-      
+
       <p>5) This command will install Ventoy to the USB. Make sure your USB name is correct; it will be something like sdb. A good way to identify the USB is by running lsblk when the USB is out and then running lsblk while the USB is plugged in.</p>
       <div class=code-box>
         <p>sudo sh Ventoy2Disk.sh -i /dev/sdX</p>
@@ -65,8 +66,8 @@
       <p>After following all of these steps Ventoy should be installed on your USB stick, now the only thing to do is plug the USB in and put the ISO and IMG files into the USB, I hope this has helped you!</p>
 
       <center>
-      <hr>
-      <pre text-align=center>  <a href="../../linuxlist">Back</a>
+        <hr>
+        <pre text-align=center>  <a href="../../linuxlist">Back</a>
     </main>
 </body>
 </html>

@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Shipwreckt">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Issue 0</title>
     <link rel="stylesheet" href="../../../../styles.css">
     <link rel="icon" href="../../../../Images/favi.png" type="image/x-icon">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="../../../../index.html">Home</a></li>
-                <li><a href="../../../../links.html">Links</a></li>
-                <li><a href="../../../../projects.html">Projects</a></li>
-                <li><a href="../../../../contact.html">Contact</a></li>
-                <li><a href="../weeklybyte">Back</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="../../../../index.html">Home</a></li>
+          <li><a href="../../../../links.html">Links</a></li>
+          <li><a href="../../../../projects.html">Projects</a></li>
+          <li><a href="../../../../contact.html">Contact</a></li>
+          <li><a href="../weeklybyte">Back</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <h2>Weekly byte<br> by shipwreckt<br> </h2>
@@ -82,7 +83,7 @@
       <p>This week's hardware suggestion I have for you is that if you are looking for a spare laptop to
       <p>I suggest you learn how to use VIM. It is free and easy to learn the basics of, but it gives
       you a lot of power. I suggest it, especially if you want to learn or are learning programming
-       due to the fact that it is really efficient for programming, I use it for programming and typing
+      due to the fact that it is really efficient for programming, I use it for programming and typing
       up. these newsletters. </p>
       <hr>
       <h3>Conclusion</h3>
@@ -90,6 +91,6 @@
       because I have been given permission to actually do this, and I am grateful. But if you read
       all of this, thank you; it does mean a lot to me!</p>
     </main>
-</body>
+  </body>
 </html>
 

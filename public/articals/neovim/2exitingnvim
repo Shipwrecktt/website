@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en-GB">
+  <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Shipwreckt">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exiting Neovim</title>
     <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" href="../../Images/favi.png" type="image/x-icon">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="../../index.html">Home</a></li>
-                <li><a href="../../links.html">Links</a></li>
-                <li><a href="../../projects.html">Projects</a></li>
-                <li><a href="../../contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="../../links.html">Links</a></li>
+          <li><a href="../../projects.html">Projects</a></li>
+          <li><a href="../../contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <h1>How to exit Neovim!</h1>
@@ -29,8 +30,8 @@
       </ul>
       <p>To people who have used Vim-based text editors, this might look strange to you because you are used to using :q and :q! And whilst those do still work, using ZZ and ZQ is way more dynamic and just smoother in the long run.</p>
       <center>
-      <hr>
-      <pre text-align=center><a href="../neovimlist">Back</a>
+        <hr>
+        <pre text-align=center><a href="../neovimlist">Back</a>
     </main>
 </body>
 </html>

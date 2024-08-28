@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en-GB">
+  <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Shipwreckt">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Summer Holiday</title>
     <link rel="stylesheet" href="../styles.css">
     <link rel="icon" href="../Images/favi.png" type="image/x-icon">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../links.html">Links</a></li>
-                <li><a href="../projects.html">Projects</a></li>
-                <li><a href="../contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../links.html">Links</a></li>
+          <li><a href="../projects.html">Projects</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <h1>6 Weeks holiday</h1>
@@ -32,8 +33,8 @@
 
       <p>On top of trying Gentoo and Linux From Scratch, I will also try out <a href="https://www.freebsd.org/">FreeBSD</a> just to see how it is. Though I am not planning to switch to it because nothing can beat Linux! However, I have heard BSD is really good for web servers, and I know you can run Nextcloud on it, so maybe I will try something like that out to see if its any good.</p>
       <p>This is my 'testing computer' where I will be doing all this on.</p>
-      <img src="../Images/computers/testpc.jpg" width="775">
-      <hr>
+      <img src="../Images/computers/testpc.jpg" width="775"><hr>
+
       <h2>Programming</h2>
       <h3>Learning programming languages</h3>
       <p>Over the next 6 weeks I will also try and dedicate some more time into learning the <a href="https://en.wikipedia.org/wiki/C_(programming_language)">C programming language</a>, and I will be trying to learn some more <a href="https://www.python.org/">Python</a> because it is easier for smaller progects and I am planning on trying to make a few small programs and see how much I can do.</p>
@@ -47,10 +48,8 @@
       <p><a href="../projects/programs/dotfiles">Dotfiles Link</a></p>
 
       <h3>Website</h3>
-      <p>I will try to do daily updates to this website. Making this website is one of the most fun projects I have ever undertaken because it is just enjoyable to write down ideas and projects I have done. I will do my best to make this website more mobile-friendly; in fact, I am going to try to do this tomorrow and see how it goes.</p>
+      <p>I will try to do daily updates to this website. Making this website is one of the most fun projects I have ever undertaken because it is just enjoyable to write down ideas and projects I have done. I will do my best to make this website more mobile-friendly; in fact, I am going to try to do this tomorrow and see how it goes.</p><hr>
 
-
-      <hr>
       <h2>Writing</h2>
       <p>In the next few weeks, I will be trying to compile all my notes about Linux into a small book that anybody can read! In this book, there will be information about different commands, how to start in the Linux world, and more! So far, I have finished the first part, but there is way more to go. If you are interested, keep an eye on the <a href="../projects.html">projects page</a> for any updates!</p>
 
@@ -58,9 +57,7 @@
       <p>That is all for now, as you can tell I am going to be busy but I am going to love the next few weeks! Thank you for reading.</p>
       <center><hr>
         <pre><a href="../index.html">Back 🚪</a></pre>
-
-
     </main>
-</body>
+  </body>
 </html>
 

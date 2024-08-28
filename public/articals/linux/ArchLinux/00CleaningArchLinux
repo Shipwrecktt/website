@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en-GB">
+  <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Shipwreckt">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cleaning Arch Linux</title>
     <link rel="stylesheet" href="../../../styles.css">
     <link rel="icon" href="../../../Images/favi.png" type="image/x-icon">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="../../../index.html">Home</a></li>
-                <li><a href="../../../links.html">Links</a></li>
-                <li><a href="../../../projects.html">Projects</a></li>
-                <li><a href="../../../contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="../../../index.html">Home</a></li>
+          <li><a href="../../../links.html">Links</a></li>
+          <li><a href="../../../projects.html">Projects</a></li>
+          <li><a href="../../../contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <h1>How to Clean Arch Linux 🧹</h1>
@@ -30,7 +31,7 @@
         <p>sudo pacman -Scc # Remove packages from cache both installed and not installed</p>
       </div>
       <p>Some people like to automate this task of cleaning the cache with <a href="https://wiki.archlinux.org/title/Pacman#Cleaning_the_package_cache">paccache</a>, but personally I would not because it is something that takes around five minutes max to do. However, it is your choice if you want to do so to avoid the trouble of doing it manually. Regardless of whether you choose to do this manually or automatically, I suggest cleaning the cache monthly.
-</p>
+      </p>
       <hr>
       <h2>Removing Orphan Packages</h2>
       <p>Orphan packages are those installed as dependencies for other software but are no longer needed. For example, when you install <a href="https://librewolf.net/">LibreWolf</a>, it downloads a package called librewolf-debug as a dependency. Once the installation is complete, librewolf-debug becomes an orphan package because it is no longer used by LibreWolf.</p>
@@ -48,8 +49,8 @@
       </div>
       <hr>
       <center>
-      <p>That is all for now, I hope this artical has helped you clean your system.</p>
-      <pre text-align=center>  <a href="../../linuxlist">Back</a>
+        <p>That is all for now, I hope this artical has helped you clean your system.</p>
+        <pre text-align=center>  <a href="../../linuxlist">Back</a>
     </main>
 </body>
 </html>

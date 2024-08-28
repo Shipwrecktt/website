@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en-GB">
+  <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Shipwreckt">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>What am I up too?</title>
     <link rel="stylesheet" href="../styles.css">
     <link rel="icon" href="../Images/favi.png" type="image/x-icon">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../links.html">Links</a></li>
-                <li><a href="../projects.html">Projects</a></li>
-                <li><a href="../contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../links.html">Links</a></li>
+          <li><a href="../projects.html">Projects</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <h1>What Am I Up To?</h1>
@@ -32,6 +33,6 @@
       <p>I am looking for an older Thinkpad that I can Libreboot, I have always wanted to do this because having a fully free software computer would just be something nice to have! So I am going to keep an eye on ebay and such for a nice thinkpad that is on the <a href="https://libreboot.org/docs/hardware/">Libre boot compatibility list</a>. Another reason why I want to Libreboot an older Thinkpad is because I want to give it some life and ideally turn it into a faster cleaner machine!</p>
 
     </main>
-</body>
+  </body>
 </html>
 

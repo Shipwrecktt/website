@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en-GB">
+  <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Shipwreckt">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neovim index</title>
     <link rel="stylesheet" href="../../styles.css">
     <link rel="icon" href="../../Images/favi.png" type="image/x-icon">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="../../index.html">Home</a></li>
-                <li><a href="../../links.html">Links</a></li>
-                <li><a href="../../projects.html">Projects</a></li>
-                <li><a href="../../contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="../../links.html">Links</a></li>
+          <li><a href="../../projects.html">Projects</a></li>
+          <li><a href="../../contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <h1>Moving around in Neovim</h1>
@@ -56,9 +57,9 @@
       </ul>
       <hr>
       <center>
-      <p>That is all now you know how to move around in Neovim! </p>
-      <hr>
-      <pre text-align=center><a href="../neovimlist">Back</a>   <a href="1modes">Next</a>
+        <p>That is all now you know how to move around in Neovim! </p>
+        <hr>
+        <pre text-align=center><a href="../neovimlist">Back</a>   <a href="1modes">Next</a>
     </main>
 </body>
 </html>

@@ -1,40 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en-GB">
+  <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Shipwreckt">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arch Linux Server</title>
     <link rel="stylesheet" href="../styles.css">
     <link rel="icon" href="../Images/favi.png" type="image/x-icon">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../links.html">Links</a></li>
-                <li><a href="../projects.html">Projects</a></li>
-                <li><a href="../contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../links.html">Links</a></li>
+          <li><a href="../projects.html">Projects</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <h2>Arch Linux Server!</h2>
-      <h3>Date: 26-7-2024</h3>
-      <hr>
+      <h3>Date: 26-7-2024</h3><hr>
       <p>Today I have installed <a href="https://archlinux.org">Arch Linux</a> on my <a href="04Servers">home server</a>; I will be honest it has been so smooth!</p>
-      <p>I use Arch Linux as my desktop Linux distro, and I knew that you could use it as a server, but I never really thought of doing it. The only reason why I have done this is just to see how good it actually is because, well, I do not hear about people using it as a server much.</p>
-      <hr>
+      <p>I use Arch Linux as my desktop Linux distro, and I knew that you could use it as a server, but I never really thought of doing it. The only reason why I have done this is just to see how good it actually is because, well, I do not hear about people using it as a server much.</p><hr>
+
       <h2>What do I have on the server? 📋</h2>
       <p>I have all the same services that I hosted on my previus server install and more!</p> 
       <ul>
         <li><a href="https://github.com/searxng/searxng">Searxng 🔎</a>
           <li><a href="https://www.qbittorrent.org/">qBittorrent ⟳</a>
-          <li><a href="https://jellyfin.org/">Jellyfin 📺</a>
-          <li><a href="https://mariadb.org/">MariaDB 📋</a>
+            <li><a href="https://jellyfin.org/">Jellyfin 📺</a>
+              <li><a href="https://mariadb.org/">MariaDB 📋</a>
       </ul>
-      <p>I was thinking about adding <a href=https://nextcloud.com/install/>Nextcloud</a> to my server, but I can just use the scp command for backups, plus I do not have much to put on it due to the fact all my work is hosted on <a href="https://gitlab.com/">Gitlab</a>.</p>
-      <hr>
+      <p>I was thinking about adding <a href=https://nextcloud.com/install/>Nextcloud</a> to my server, but I can just use the scp command for backups, plus I do not have much to put on it due to the fact all my work is hosted on <a href="https://gitlab.com/">Gitlab</a>.</p><hr>
+
       <h2>Searxng 🔎</h2>
       <p>Searxng is a metasearch engine that takes results from other search services. It does not track you; even the <a href="https://searx.space/">public ones</a> don't! I like it because it gives me good results and it is easy to self-host, so I know 100%  that I am not being tracked. I did try to install it without <a href="https://www.docker.com/">Docker</a>, but the <a href="https://docs.searxng.org/admin/installation-searxng.html">guide</a>did not work for me, so I basically took the easy way out with the official Docker image that worked.</p>
 
@@ -50,9 +50,9 @@
       <h2>Last words</h2>
       <p>I will probably only use Arch Linux for servers because it is hassle-free and easy to use! That is all there is to say it was easy and less of a headache than <a href="https://ubuntu.com">Ubuntu</a>, at least in my experience.</p>
       <p>But thank you for reading!</p>
-      <center><hr>
-        <pre><a href="../index.html">Back 🚪</a> | <a href="tags/Linux">More Linux 🐧</a></pre>
-    </main>
-</body>
-</html>
 
+      <center><hr>
+        <pre><a href="../index.html">Back 🚪</a> | <a href="tags/Linux">More Linux 🐧</a> | <a href="tags/Tech">More Tech 🧑‍💻</a></pre>
+    </main>
+  </body>
+</html>
