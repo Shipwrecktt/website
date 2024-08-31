@@ -5,12 +5,9 @@ body {
   background-color: #272727;
   color: #e6e6e6;
   font-family: 'FreeSerif', serif;
-  margin: 0;
-  padding: 0;
   max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
-  box-sizing: border-box;
 }
 
 header {

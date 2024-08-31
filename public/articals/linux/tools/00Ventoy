@@ -42,7 +42,7 @@
 
       <p>3) After installing the tar.gz, you need to run the following command; this will open the compressed file, which will allow you to use Ventoy.</p>
       <div class=code-box>
-        <p>ventoy-&lt;version&gt;-linux.tar.gz && tar -xvf ventoy-&lt;version&gt;-linux.tar</p>
+        <p>gunzip ventoy-&lt;version&gt;-linux.tar.gz && tar -xvf ventoy-&lt;version&gt;-linux.tar</p>
       </div><hr>
 
       <p>4) Next you want to enter the Ventoy directory and identify what your USB name is</p>
