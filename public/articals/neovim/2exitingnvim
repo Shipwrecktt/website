@@ -31,7 +31,7 @@
       <p>To people who have used Vim-based text editors, this might look strange to you because you are used to using :q and :q! And whilst those do still work, using ZZ and ZQ is way more dynamic and just smoother in the long run.</p>
       <center>
         <hr>
-        <pre text-align=center><a href="../neovimlist">Back</a>
+        <pre><a href="../neovimlist">Back</a> <a href="3Basic">Next</a>
     </main>
 </body>
 </html>

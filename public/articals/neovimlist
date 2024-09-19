@@ -26,11 +26,12 @@
       <h2>Why Use Neovim?</h2>
       <p>Neovim is a fast and modern text editor with amazing documentation, which has led to a wide range of plugins being developed for it. It is also lightweight and easy to learn the basics.</p>
       <section class="posts">
-        <h2>Tutorials</h2>
+        <h2>Basics</h2>
         <ul>
           <li><a href="neovim/0move">How to move around</a></li>
           <li><a href="neovim/1modes">Diffrent modes</a></li>
-          <li><a href="neovim/2exitingnvim">How exit</a></li>
+          <li><a href="neovim/2exitingnvim">How exit neovim</a></li>
+          <li><a href="neovim/3Basic">Basic commands</a></li>
         </ul>
     </main>
   </body>

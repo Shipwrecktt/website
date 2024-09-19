@@ -23,7 +23,7 @@
       <h2>Installing Gentoo Linux</h2>
       <h3>Date: 31-08-2024</h3><hr>
       <p>Over the past three days I have been installing and tinkering with Gentoo Linux!</p>
-      <img src="../Images/logos/gentoo.png" class="right-image" width="300">
+      <img src="../Images/logos/gentoo.png" class="right-image" width="250">
 
       <h2>Installing</h2>
       <p>I found the <a href="https://wiki.gentoo.org/wiki/Handbook:Main_Page">Gentoo Handbook</a> extremely useful for installing Gentoo Linux. In the past, my attempts to install Gentoo on my test PC, which uses a BIOS system, were, just a big fail due to a bunch of small mistakes I made. But this time around I installed Gentoo on my main PC, which has 18 cores, that allows me to compile things faster. Overall, I found the installation process to be very straightforward. I simply SSHed into the computer and copied the necessary commands to install the required packages, along with some miscellaneous things like ensuring the file systems where 100% working.</p>
