@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Shipwreckt">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I2P 🕵️</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../Images/favi.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../links.html">Links</a></li>
+          <li><a href="../projects.html">Projects</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Trying out I2P 🕵️</h2>
+      <h3>Date: 22-09-2024</h3><hr>
+      <img class="right-image" width="170" src="../Images/logos/i2p.png">
+
+      <h1>What is I2P?</h1>
+      <p><a href="https://i2p.net">I2P</a> stands for "The Invisible Internet Project" and it is a totally private and encrypted private network layer. If you have ever heard of or used the <a
+            href="https://www.torproject.org/">Tor project</a>, it is similar, but the I2P network is more secure and faster.</p>
+
+      <h2>What is the point of using I2P?</h2>
+      <p>This is a good question. Why should you or I even use I2P? The answer is simple: it offers many interesting things, for example:</p>
+      <ul>
+        <li>Over 7,000 unique websites to visit</li>
+        <li>Free fully private Email address</li>
+        <li>Private IRCs</li>
+        <li>Fully decentralization</li>
+        <li>Advanced userbase</li>
+        <li>Faster than the <a href="https://www.torproject.org/">Tor</a> and <a href="https://staging.freenetproject.org/">freenet</a></li>
+      </ul>
+      <p>Overall, I2P offers a lot to you and has an amazing community of friendly people.</p><hr>
+      <h1>My experience</h1>
+      <h2>Hosting on home server</h2>
+      <p>I installed <a href="https://github.com/PurpleI2P/i2pd">i2pd</a> onto my home server. I chose i2pd because it is written in C, making it faster than the normal I2P package.</p>
+
+      <p>After installing and starting up i2pd with Systemd, I had to forward the ports on my local network so that I could use I2P. This can be done by running a simple command:</p>
+      <div class="code-box">
+        <p>ssh -fTNL 4444:127.0.0.1:4444 -L 7070:127.0.0.1:7070 &lt;username&gt;</p>
+      </div>
+
+      <p>I would strongly suggest using <a href="https://librewolf.net/">Librewolf</a> to look through the I2P network.</p><hr>
+      <p>Here are a few websites I do like:</p>
+      <ul>
+        <li>http://notbob.i2p/</li>
+        <li>http://ramble.i2p/</li>
+      </ul>
+      <p>Most of the websites on I2P are personal sites, and I highly suggest using NotBob to look for them because some of them are really cool.</p><hr>
+      <h2>Last thoughts</h2>
+      <p>Most of the websites on I2P are personal sites. I highly suggest using NotBob to look for them because some of them are really cool.</p>
+
+      <center><hr>
+        <pre><a href="../index.html">Back 🚪</a>| <a href="tags/Tech">More Tech 🧑‍💻</a> </pre>
+      </center>
+
+    </main>
+  </body>
+</html>
+
