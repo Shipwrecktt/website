@@ -25,8 +25,7 @@
       <img class="right-image" width="170" src="../Images/logos/i2p.png">
 
       <h1>What is I2P?</h1>
-      <p><a href="https://i2p.net">I2P</a> stands for "The Invisible Internet Project" and it is a totally private and encrypted private network layer. If you have ever heard of or used the <a
-            href="https://www.torproject.org/">Tor project</a>, it is similar, but the I2P network is more secure and faster.</p>
+      <p><a href="https://i2p.net">I2P</a> stands for "The Invisible Internet Project" and it is a totally private and encrypted private network layer. If you have ever heard of or used the <a href="https://www.torproject.org/">Tor project</a>, it is similar, but the I2P network is more secure and faster.</p>
 
       <h2>What is the point of using I2P?</h2>
       <p>This is a good question. Why should you or I even use I2P? The answer is simple: it offers many interesting things, for example:</p>

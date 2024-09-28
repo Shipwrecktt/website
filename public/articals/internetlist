@@ -25,12 +25,12 @@
       <section class="posts">
 
         <h2>How to stay safe Online</h2>
-        <p>A series of articles I wrote about how I stay safe online.</p>
+        <p>A series of articles I have wrote about how I stay safe online.</p>
         <ul>
-          <li>08-08-2024 - <a href="internet/safety/00Intro">Introduction</a></li>
-          <li>08-08-2024 - <a href="internet/safety/01Profiles">Online profiles</a></li>
-          <li>08-08-2024 - <a href="internet/safety/02Passwords">Passwords</a></li>
-          <li>08-08-2024 - <a href="internet/safety/03Browser">Web Browsers</a></li>
+          <li><a href="internet/safety/00Intro">Introduction</a></li>
+          <li><a href="internet/safety/01Profiles">Online profiles</a></li>
+          <li><a href="internet/safety/02Passwords">Passwords</a></li>
+          <li><a href="internet/safety/03Browser">Web Browsers</a></li>
         </ul>
     </main>
   </body>
