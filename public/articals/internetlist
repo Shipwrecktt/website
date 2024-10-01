@@ -32,6 +32,11 @@
           <li><a href="internet/safety/02Passwords">Passwords</a></li>
           <li><a href="internet/safety/03Browser">Web Browsers</a></li>
         </ul>
+        <hr>
+        <h2>The internet you never see (Darknet)</h2>
+        <ul>
+          <li><a href="internet/Darknet/00I2P">I2P</a> (The Invisible Internet Project)</li>
+        </ul>
     </main>
   </body>
 </html>
