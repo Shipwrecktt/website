@@ -24,6 +24,7 @@
         <center>
           <h1>Tech 🧑‍💻</h1>
         </center>
+        <p>01-12-2024 - <a href="../14Email">Email and Life update</a></p>
         <p>22-09-2024 - <a href="../13I2P">Trying out I2P 🕵️</a></p>
         <p>18-09-2024 - <a href="../12Pihole">Pihole on Arch server</a></p>
         <p>31-08-2024 - <a href="../10Gentoo">Installing Gentoo Linux</a></p>
@@ -38,7 +39,7 @@
 
       <div class="tags2"><hr>
         <h3>Other tags</h3>
-        <pre><a href="Linux">Linux 🐧</a> | <a href="BSD">BSD 😈</a> | <a href="Hardware">Hardware 🖥</a> |</pre>
+        <pre><a href="Linux">Linux 🐧</a> | <a href="BSD">BSD 😈</a> | <a href="Hardware">Hardware 🖥</a> | <a href="Life">Life 🍺</a> </pre>
       </div>
     </main>
   </body>
