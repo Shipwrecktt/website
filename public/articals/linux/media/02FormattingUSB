@@ -50,9 +50,9 @@
       </ul>
       <p>Give fdisk a minute to write the new partition to the USB.</p><hr> 
 
-      <p>3) Now is the time to give that partition a file system. You should look into this beforehand to see what file system you want, but I will use ext4 because it was made for Linux use.</p>
+      <p>3) Now is the time to give that partition a file system. You should look into this beforehand to see what file system you want, but I will use fat32 because it works with all operating systems.</p>
       <div class="code-box">
-        <p>sudo mkfs.ext4 -L "Backup-USB" /dev/sdXx</p>
+        <p>sudo mkfs.fat -F 32 -n "Backup-USB" /dev/sdXx</p>
       </div>
       <p>The small x represents the number of the partition; the -L flag is used to give the USB stick a name.</p><hr>
 
