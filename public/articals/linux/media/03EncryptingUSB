@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Shipwreckt">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encrypting USB with luks</title>
+    <link rel="stylesheet" href="../../../styles.css">
+    <link rel="icon" href="../../../Images/favi.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../../../index.html">Home</a></li>
+          <li><a href="../../../links.html">Links</a></li>
+          <li><a href="../../../projects.html">Projects</a></li>
+          <li><a href="../../../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Encrypting USB with luks</h1>
+      <h3>Date: 17-02-2024</h3>
+      <hr>
+      <h2>What you will need 📋</h2>
+      <ul>
+        <li>A USB drive</li>
+        <li>A computer with Linux  🐧🖥</li>
+        <li>The ability to read instructions and to follow them 🧠</li>
+      </ul><hr>
+
+      <p>1) Install cryptsetup 
+      <div class="code-box">
+        <p>sudo pacman -S cryptsetup</p>
+      </div>
+
+      <hr>
+
+      <p>2) Backup any information on the USB stick because this process involves formatting the USB drive.</p>
+
+      <hr>
+
+      <p>3) Formatting USB.</p>
+      <div class="code-box">
+        sudo fdisk /dev/sdX
+      </div>
+      <p>The X being your USB drive.</p>
+      <p>Press the following keys: <br> o <br> n <br> Press enter for the rest <br>w</p>
+
+      <hr>
+
+      <p>4) Encryption time!
+      <div class="code-box">
+        sudo cryptsetup luksFormat /dev/sdX1
+      </div>
+      <p><a href="../../internet/safety/02Passwords">Make your password secure please!</a>
+
+      <hr>
+
+      <p>5) Decrypt USB</p>
+      <div class="code-box">
+        sudo cryptsetup luksOpen /dev/sdX1 USB
+      </div>
+      <p>Note: The first password is your root user password, not the encryption password. I have sadly made this mistake in the past.</p>
+
+      <hr>
+
+      <p>6) Format the Encrypted Partition</p>
+      <div class="code-box">
+        sudo mkfs.ext4 /dev/mapper/USB
+      </div>
+      <p>Depending on the size of the USB, this may take some time. For me, it took 3 minutes.</p>
+
+      <hr>
+
+      <p>Step 7: Mount the Encrypted Partition</p>
+      <div class="code-box">
+        sudo mkdir -p /mnt/USB
+        <br>
+        sudo mount /dev/mapper/USB /mnt/USB
+      </div>
+
+      <hr>
+      <h2>Finished ✅</h2>
+      <p>Your password better be good dude. Make sure to memorize it!</p>
+      <hr>
+
+  <center>
+    <pre text-align=center>  <a href="../../linuxlist">Back 🚪</a>
+    </main>
+</body>
+</html>
+
