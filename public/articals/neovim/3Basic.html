@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Shipwreckt">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic commands</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="icon" href="../../Images/favi.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="../../links.html">Links</a></li>
+          <li><a href="../../projects.html">Projects</a></li>
+          <li><a href="../../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+
+      <h1>Basic Commands</h1><hr>
+
+      <p>There are over 100 commands in Neovim, and thankfully, you don't need to know all of them to use the text editor—just a few basic commands are enough.</p><hr>
+
+      <h3>Copy and Paste in Neovim</h3>
+      <p>Instead of using <kbd>Ctrl</kbd> + <kbd>C</kbd> and <kbd>Ctrl</kbd> + <kbd>V</kbd>, Neovim uses <kbd>y</kbd> and <kbd>p</kbd> for copying and pasting lines:</p>
+      <ul>
+        <li><kbd>yy</kbd> - Copies an entire line in normal mode</li>
+        <li><kbd>y3</kbd> - Copies 3 lines in normal mode</li>
+        <li><kbd>y</kbd> - Copies selected text in visual mode</li>
+      </ul>
+      <hr>
+
+      <h3>Deleting Lines</h3>
+      <ul>
+        <li><kbd>dd</kbd> - Deletes a single line in normal mode</li>
+        <li><kbd>d3</kbd> - Deletes 3 lines in normal mode</li>
+        <li><kbd>d</kbd> - Deletes selected text in visual mode</li>
+      </ul>
+      <hr>
+
+      <h3>Undo and Redo</h3>
+      <ul>
+        <li><kbd>u</kbd> - Undo the last change</li>
+        <li><kbd>Ctrl</kbd> + <kbd>r</kbd> - Redo the undone change</li>
+      </ul>
+      <hr>
+
+      <h3>Saving and Quitting</h3>
+      <ul>
+        <li><kbd>:w</kbd> - Save the current file</li>
+        <li><kbd>:wq</kbd> or <kbd>ZZ</kbd> - Save and quit</li>
+        <li><kbd>:q</kbd> - Quit (only if no unsaved changes)</li>
+        <li><kbd>:q!</kbd> or <kbd>ZQ</kbd> - Quit without saving changes</li>
+      </ul>
+      <hr>
+
+      <h3>Searching</h3>
+      <ul>
+        <li><kbd>/Linux</kbd> - Search for 'Linux' (case-sensitive)</li>
+        <li><kbd>n</kbd> - Go to the next found 'Linux'</li>
+        <li><kbd>N</kbd> - Go to the previous 'Linux'</li>
+      </ul>
+      <hr>
+
+      <pre style="text-align: center;"><a href="../neovimlist.html">Back</a></pre>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Shipwreckt">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burning optical media in Linux</title>
+    <link rel="stylesheet" href="../../../styles.css">
+    <link rel="icon" href="../../../Images/favi.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../../../index.html">Home</a></li>
+          <li><a href="../../../links.html">Links</a></li>
+          <li><a href="../../../projects.html">Projects</a></li>
+          <li><a href="../../../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>How To Format A USB with Linux 💿</h1>
+      <h3>Date: 23-08-2024</h3>
+      <hr>
+      <p>This is a quick tutorial to show you how to burn any file to a piece of optical disk media!</p>
+      <hr>
+      <h3>Warning ⚠️</h3>
+      <p>Once you burn an optical disk you cannot reburn it.</b>
+    <p>Optical media does not have the best storage, normally under 1GiB so make sure your files align with the size of the optical media.</b>
+  <hr>
+  <h2>What you will need 📋</h2>
+  <ul>
+    <li>Optical drive capable of writing to a CD</li>
+    <li>A computer with Linux  🐧🖥️</li>
+    <li>The ability to read instructions and to follow them 🧠</li>
+  </ul>
+  <hr>
+
+  <h2>Steps to burn 🔥</h2>
+  <p>You will only need one program to burn media to a CD; the name of that program is <a href="https://linux.die.net/man/1/wodim">wodim</a>, and it is part of a collection of programs called <a href="https://packages.debian.org/source/sid/cdrkit">cdrkit</a>, as in thename ofe this collection of programs that allow you to do a whole variaty of things withopticall media! 
+  <hr>
+
+  <li>1) Install cdrkit, on some Linux distrobutions cdrkit is already installed, but on my main Linux distrobution <a href="https://archlinux.org">Arch Linux</a>, it is not so check you have it installed, the package on your distro will most likely be called cdrkit.</li>
+  <br>
+  <div class="code-box">
+    <p>sudo pacman -S cdrkit</p>
+  </div>
+  <br>
+
+  <hr>
+
+  <li>2) You want to get whatever data you want into an ISO file, so if you had a file called movies that held movies you would use the command.</li><br>
+  <div class="code-box">
+    <p>mkisofs -o movies.iso movies</p>
+  </div>
+  <p>movies.iso being the output ISO and movies being the directory with the movies in there.</p>
+
+  <hr>
+
+  <li>3) Now the last command is the actual event of burning the optical media! So insert it into your optical drive and type this command.</li><br>
+  <div class="code-box">
+    <p>wodim -v dev=/dev/sr0 movies.iso</p>
+  </div>
+  <p>movies.iso being the output ISO from the last command.</p>
+
+  <hr>
+
+  <li>4) Now it is time to sit back and wait for it to burn; do not get impatient; give it time, and it will burn. When it is done, you may enject the optical media from the CD drive, and it should have all the files you desire.</li><br>
+  <center>
+    <hr><p>That is all the required steps to burn optical media on Linux, I hope this has helped you!</p>
+    <pre text-align=center>  <a href="../../linuxlist.html">Back 🚪</a>
+    </main>
+</body>
+</html>
+

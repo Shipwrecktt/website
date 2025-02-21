@@ -10,6 +10,12 @@ This project is licensed under the GNU Affero General Public License v3.0. You c
 
 To clone this repository, use the following command:
 
+From my git server
+```bash
+git@shipwreckt.co.uk:/var/www/git/website.git
+
+
+From Gitlab
 ```bash
 git clone https://gitlab.com/Shipwreckt/website
 
