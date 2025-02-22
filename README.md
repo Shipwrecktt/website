@@ -12,7 +12,7 @@ To clone this repository, use the following command:
 
 From my git server
 ```bash
-git@shipwreckt.co.uk:/var/www/git/website.git
+git clone git://shipwreckt.co.uk/website
 
 
 From Gitlab
