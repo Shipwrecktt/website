@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Shipwreckt">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git server setup!</title>
+    <link rel="stylesheet" href="../../../styles.css">
+    <link rel="icon" href="../../../Images/favi.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../../../index.html">Home</a></li>
+          <li><a href="../../../links.html">Links</a></li>
+          <li><a href="../../../projects.html">Projects</a></li>
+          <li><a href="../../../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>How to start your own epic Git server!</h1>
+      <h3>Date: 23-02-2025</h3>
+      <hr>
+      <p>Quick guide on how to set up a git server with stagic html website.</p>
+      <hr>
+
+      <h2>What you will need 📋</h2>
+      <ul>
+        <li>A computer with Linux  🐧🖥️</li>
+        <li>A VPS with Linux instaled 🐧🗄️</li>
+        <li>Some terminal knowlage 🧠</li>
+        <li>Ideally have a domain name</li>
+      </ul>
+      <hr>
+
+      <h1>Setting up Git server</h1>
+      <hr>
+
+      <li>1) Install Git</li>
+      <br>
+      <div class="code-box">
+        <p># sudo apt install git</p>
+      </div>
+      <br>
+
+      <hr>
+
+      <li>2) Create git user.</li><br>
+      <div class="code-box">
+        <p># sudo adduser git</p>
+      </div>
+
+      <hr>
+
+      <li>3) Now you need to add your SSh keys.</li><br>
+      <div class="code-box">
+        <h3>On server</h3>
+        <p># su git</p>
+        <p>$ cd</p>
+        <p>$ mkdir .ssh && chmod 700 .ssh</p>
+        <p>$ touch .ssh/authorized_keys && chmod 600 .ssh/authorized_keys</p>
+      </div>
+
+      <br>
+
+      <div class="code-box">
+        <h3>On computer</h3>
+        <p>$ cat .ssh/id_rsa.pub</p>
+        <pre>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCyXwuFdbWHloGPOfFq6p5Dt..... me@shipwreckt.co.uk</pre>
+        <p>Copy and paste your ssh key to .ssh/authorized_keys on your server.
+      </div>
+
+      <p>If you want to allow other people to use your Git server, add their SSH keys alongside yours.</p>
+
+      <hr>
+
+      <li>4) Nearly done, now all you need to do is make a git repo.</li><br>
+      <div class="code-box">
+        <p># chown git:git /srv/git</p>
+        <p># su git</p>
+        <p>$ cd /srv/git</p>
+        <p>$ mkdir yourrepo.git</p>
+        <p>$ cd yourrepo.git</p>
+        <p>$ git init --bare</p>
+      </div>
+
+      <hr>
+
+      <li>5) Time to add your server to your local repo</li>
+      <div class="code-box">
+        <h3>On computer</h3>
+        <p>$ cd yourrepo</p>
+        <p>$ git init</p>
+        <p>$ git add .</p>
+        <p>$ git commit -m 'Initial commit'</p>
+        <p>$ git remote add origin git@gitserver:/srv/git/project.git</p>
+        <p>$ git push origin master</p>
+      </div>
+
+      <p>If you already have a Git repository from another server, you can do the following to add your new Git server alongside your old one.</p>
+
+      <div class="code-box">
+        <h3>On computer</h3>
+        <p>$ cd yourrepo</p>
+        <p>$ git remote add server git@gitserver:/srv/git/project.git</p>
+        <p>$ git push server master && git push origin master</p>
+      </div>
+
+      <p>You can now do this for all of your repos!</p>
+
+      <hr>
+
+      <li>6) If you want to enable anybody to clone from your website do the following!</li>
+
+      <div class="code-box">
+        <p># sudo git daemon --reuseaddr --base-path=/srv/git/ /srv/git/ &</p>
+        <p># sudo systemctl enable git-daemon</p>
+        <p># sudo systemctl start git-daemon</p>
+        <p># su git</p>
+        <p>touch /srv/git/project.git/git-daemon-export-ok</p>
+      </div>
+
+      <p>Cloning your git repo</p>
+      <div class="code-box">
+        <h3>On computer</h3>
+        <p>git clone git://your-server-ip-address/repository.git</p>
+      </div>
+      <p>Now you should be able to be able to clone without a ssh key!</p>
+
+      <hr>
+      <h1>Setting up Stagit for personal git website</h1>
+      <p>Now that you have a Git server, you probably want a way to show off all of your repositories. I personally use Stagit for this because it is lightweight and stylish. I will assume you know how to make a website using Apache or Nginx.</p>
+
+      <hr>
+      <li>1) First you need to install stagit, I have my own custom fork to make it easier to setup.</li>
+      <div class="code-box">
+        <p># cd /var/www</p>
+        <p># git clone git://shipwreckt.co.uk/stagit-fork.git</p>
+        <p># mkdir git</p>
+        <p># chown git:git git</p>
+        <p># mv stagit-fork/* git</p>
+        <p># cd git</p>
+        <p># sudo make clean install</p>
+      </div>
+
+      <hr>
+      <li>2) Setup website.</li>
+      <div class="code-box">
+        # cd htmldir
+        # sh example_create.sh
+      </div>
+      <p>Your static stagit website should be generated for you! Check by going to git.yourdomain.com.
+
+      <hr>
+
+      <li>3) Next you want to set up ownership, links, and descriptions for stagiit to display</li>
+      <div class="code-box">
+        <h3>Descriptions</h3>
+        <p># This is my git repo > /srv/git/yourrepo.git/description</p>
+      </div>
+
+      <div class="code-box">
+        <h3>URL</h3>
+        <p># git://yourdomain.com/yourrepo.git > /srv/git/yourrepo.git/url
+      </div>
+
+      <div class="code-box">
+        <h3>Owner</h3>
+        <p># owner > /srv/git/yourrepo.git/owner</p>
+      </div>
+
+      <div class="code-box">
+        <h3>Update stagit</h3>
+        <p># sh /var/www/git/htmldir/example_create.sh</p>
+      </div>
+
+      <p>Now repete for all of your repos till all is correct!</p> 
+
+      <hr>
+      <li>3) Now you want it so stagit updates whenever there is an update, thankfully for you I have modified the script to work whenever a git commit is made!</li>
+      <div class="code-box">
+        # cp /var/www/git/example_post-receive.sh /srv/git /srv/git/yourgitrepo.git/hooks/post-receive
+      </div>
+      <p>Now whenever you push a commit everything should update!</p><hr>
+
+      <h1>Overview</h1>
+      <p>I hope this guide has helped you setup a kool git server! If there are any problems please contact me!</p>
+
+      <center>
+        <hr>
+        <pre text-align=center>  <a href="../../linuxlist.html">Back 🚪</a>
+    </main>
+</body>
+</html>
+
