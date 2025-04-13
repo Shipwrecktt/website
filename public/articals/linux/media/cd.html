@@ -50,17 +50,17 @@
 
   <hr>
 
-  <li>2) You want to get whatever data you want into an ISO file, so if you had a file called movies that held movies you would use the command.</li><br>
+  <li>2) You want to get whatever data you want into an ISO file, so if you had a file called movies that held movies you would use the command. As an example, I will be using the location of the Fallout 1 installation files on my system.</li><br>
   <div class="code-box">
-    <p>mkisofs -o movies.iso movies</p>
+    <p>mkisofs -o Fallout.iso -V "Fallout 1" ~/Downloads/Fallout</p>
   </div>
-  <p>movies.iso being the output ISO and movies being the directory with the movies in there.</p>
+  <p>Fallout.iso being the output ISO and ~/Downloads/Fallout being the directory with the movies in there.</p>
 
   <hr>
 
   <li>3) Now the last command is the actual event of burning the optical media! So insert it into your optical drive and type this command.</li><br>
   <div class="code-box">
-    <p>wodim -v dev=/dev/sr0 movies.iso</p>
+    <p>cdrecord -v de=/dev/cdrom ~/Downloads/Fallout</p>
   </div>
   <p>movies.iso being the output ISO from the last command.</p>
 
