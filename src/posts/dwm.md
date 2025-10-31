@@ -1,0 +1,47 @@
+---
+title: Switching to DWM
+date: 2024-07-13
+layout: post
+tags:
+    - linux
+    - bsd
+    - tech
+---
+## What is DWM
+DWM stands for Dynamic Window Manager. It is a window manager for X.org; it was developed by the programmers at Suckless Software. DWM is super lightweight, with the entire window manager programmed in about 3,000 lines of C code. Its very minimalistic, allowing users to modify and patch it to their heart's content!
+
+
+***
+
+## Why DWM?
+Why DWM?
+
+<img class="right-image" width="170" src="/images/dwm.png">
+The reason why I have chosen DWM as my window manager is because recently I have been on a sort of pilgrimage for the perfect window manager, something lightweight and functionable. I started my window manager pilgrimage with the very user-friendly and configurable Qtile written in Python; I was happy with it. But I felt the urge to explore more into window managers, so from there I tried out I3, another great window manager, and I really enjoyed using it, but I wanted to test out the most lightweight and fastest window manager, being DWM. As of writing, I believe this is the end of my pilgrimage since I am more than happy with DWM.
+
+There is also the fact that I want to try out Linux from scratch, Gentoo, and Freebsd in the future, so having the same window manager throughout using all of these operating systems will just make it easier for me to use the OS.
+
+***
+
+## What I like
+
+- Lightweight - I love the fact that DWM is lightweight, as mentioned before it comes in at around 3,000 lines of C code, this means not only is it small in size but compiles faster then something like I3.
+
+- Indipendance - There is a great sense of independence when using DWM because when you modify it, you are modifying the raw code of the program. This does not happen with something like I3, where you are provided a config file in ~/.config to change. Some people might see this as a burden, but I see it as an opportunity to just mess around and improve my programming skills.
+
+- Enviroment - DWM makes you produce your own work enviroment, this is because unlike something like KDE plasma you are not given a desktop enviroment with all the tools, instead you are given a window manager and a terminal, I only use around GUI programs so making my enviroment was easy as anything and allows me to preform tasks quicker then if I was using KDE Plasma
+
+***
+<center>
+<img src="/images/dwmsetup.png" width="800">
+
+Here is my DWM setup on my PC as of 13-7-2024
+</center>
+
+***
+
+## Overview
+
+I love DWM and I plan to use it for as long as I can, there is a wayland version of DWM called DWL so even if I do switch to wayland I will still be able to use DWM. I am exited to further work on my DWM setup and keep an eye on my dotfiles for any updates!
+
+Note 26-10-2025) I am still using it, and yes. It is still awesome.

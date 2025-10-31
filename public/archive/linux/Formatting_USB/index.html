@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <title>Formatting USBs With Linux 🔌🔥</title>
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>Formatting USBs With Linux 🔌🔥</h1>
+        <p class="post-date">August 23, 2024</p>
+      </header>
+      <div class="post-content">
+        <hr>
+        <p>Formatting a USB in Linux is easier then <a href="01BurningIsos">burning an ISO</a> and only needs a few quick commands!</p>
+<hr>
+<h2>What you will need 📋</h2>
+<ul>
+<li>A USB drive</li>
+<li>A computer with Linux 🐧🖥</li>
+<li>The ability to read instructions and to follow them 🧠</li>
+</ul>
+<hr>
+<h2>Formatting the USB</h2>
+<ol>
+<li>The first thing you want to do is plug in your USB stick and identify the USB stick's name.</li>
+</ol>
+<p>lsblk</p>
+<p>Normally the USB will be something like sdX; a tip on identifying it is by looking at the size of the USB in the table that lsblk gives you!</p>
+<hr>
+<ol start="2">
+<li>Now you need to use a program called <a href="https://linux.die.net/man/8/fdisk">fdisk</a> that will allow you to create a new partition table for the USB, this will format the USB.</li>
+</ol>
+<p>sudo fdisk /dev/sdX</p>
+<p>You will need to press the following keys to make a new partition table for the USB.</p>
+<ul>
+<li>o - Creates a new DOS partition table</li>
+<li>n - New partition, press enter to all that follows</li>
+<li>w - Writes the partition table</li>
+</ul>
+<p>Give fdisk a minute to write the new partition to the USB.</p>
+<hr>
+<ol start="3">
+<li>Now is the time to give that partition a file system. You should look into this beforehand to see what file system you want, but I will use fat32 because it works with all operating systems.</li>
+</ol>
+<p>sudo mkfs.fat -F 32 -n &quot;Backup-USB&quot; /dev/sdXx</p>
+<p>The small x represents the number of the partition; the -L flag is used to give the USB stick a name.</p>
+<hr>
+<h2>Finished ✅</h2>
+<p>All done! Now you have an empty USB stick you can use for all your files!</p>
+<hr>
+
+      </div>
+    </article>
+
+    
+    
+
+    <footer class="post-footer">
+      <a href="/archive/linux" class="back-button">⬅ Back to Linux</a>
+    </footer>
+
+  </body>
+</html>
+

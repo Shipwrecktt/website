@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <title>Linux File Hierarchy</title>
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>Linux File Hierarchy</h1>
+        <p class="post-date">August 05, 2024</p>
+      </header>
+      <div class="post-content">
+        <hr>
+        <p>Like any other operating system Linux has a File Hierarchy, due to the fact that the Linux operating system is a Unix-like operating system the infomation in this article can be applied to BSD and any modern versions of Unix like Solaris or IBM's AIX.</p>
+<h2>/ (root)</h2>
+<p>Every single varient of Linux has a root directory reposented by the forward slash symbol '/' it is the highest level directory in Linux and it stores all the system files that make it possable to run Linux.</p>
+<h2>/bin</h2>
+<p>The bin directory is where all of the executable binaries are stored, this allows you to use commands like ''cd', 'mkdir' and all the commands you can type into your command line.</p>
+<h2>/boot</h2>
+<p>The /boot directory holds all the files needed for you to be able to boot up your Linux system. It includes configuration files for whatever bootloader you are using and other components, such as the installed kernel and the initial RAM disk. The kernel is the main part of every operating system, from Windows to Linux to BSD. Its goal is to allocate resources to programs and allow them to run, while the initial RAM disk is just there to mount the root filesystem at boot. If you have more than one kernel installed, it will be stored in the /boot directory, so if you plan to install more than one kernel, I would strongly suggest allocating some more space to this directory.</p>
+<p>##/dev
+The /dev directory contains files that represent the hardware devices of your computer, such as hard drives, terminals, and such. These device files allow the operating system and software to interact with the hardware. For example, if you have ever installed Arch Linux or Gentoo /dev/sda would be the first SATA drive on your computer, while something like /dev/tty20 would represent the twentieth terminal on the system. Also the /dev directory includes virtual device files, such as /dev/null, which discards all data written to it, and /dev/random, which generates random numbers. These virtual devices provide various system functions that do not interact with the physical hardware.</p>
+<h2>/etc</h2>
+<p>The etc directory contains configuration files for all of the system-wide settings. It includes configurations for system services, users, and various applications. A few essential files in /etc would be the fstab file which defines how all the disk partitions are mounted on boot and if this is not present well your computer will not mount propally meaning you will not be able to boot, /etc/passwd which contains user info, and /etc/hostname which has the system’s hostname whithin it. This directory is needed for managing your Linux system because it holds many aspects of system behavior and configuration.</p>
+<h2>/home</h2>
+<p>The /home directory is where users' files are stored. Each user on the system has a subdirectory within /home, normally named after their username, where they can store personal files, configurations, and other personal files. For example, my user is &quot;shipwreckt&quot; and I have my home directory in /home/shipwreckt. This directory is essential for normal computer use.</p>
+<h2>/lib</h2>
+<p>The /lib directory holds all of the shared library files that are needed by programs. In these libraries is the code for various programs to run; an example would be the C library, which is essential for programs written in C (who would have guessed). This directory is critical for the running of programs and your system as a whole.</p>
+<h2>/lib64</h2>
+<p>The /lib64 directory is basically the same as /lib but it holds 64-bit libraries. If your Linux system runs on a 64-bit architecture, /lib64 contains the needed libraries required for 64-bit programmes. While /lib normally contains 32-bit libraries, the separation helps in managing libraries for different system architectures.</p>
+<h2>/media</h2>
+<p>The /media directory is used for mounting removable media like USBs, CDs, and if you are old floppy disks. When a removable device is plugged into the computer, it should be mounted to the /media directory. On some Linux systems, like Arch Linux, there is no /media directory but there is a /run/media directory. Removable media is not automatically mounted, so you might need to do this manually, be that through your file manager or the terminal.</p>
+<h2>/mnt</h2>
+<p>The /mnt directory is used for mounting other hard drives on your computer. On my computer I have two drives my NVME drive that has Arch Linux installed on it and my secondary drive that I use for backups, the drive is in /mnt sadly there is not much to say about /mnt but this is all I know about it.</p>
+<h2>/opt</h2>
+<p>The /opt directory is used for installing third-party software are not part of the default system. Software installed here does not normally need core system components. In my /opt I only have the nuclear music player and to my knowlage only programs written in higher level programming langauges like python and java are installed here.</p>
+<h2>/proc</h2>
+<p>the /proc directory is a virtual filesystem that gives us a view into the kernel's internal data structures. This directory contains infomation about system processes and a bunch of kernel parameters. Files in /proc are not readable files but are created over time by the kernel. For example /proc/cpuinfo holds a bunch of useful infomaiton about your CPU, whilst /proc/meminfo shows memory usage. This directroy is needed ofr monitoring and managing system performance</p>
+<h2>/root</h2>
+<p>If you did not know root is technically a user and its home directory is not in /home instead it is in the /root. It is used to store anything a normal user would use their home directory for.</p>
+<h2>/sbin</h2>
+<p>The /sbin directory contains essential binaries and commands that are used by the root user. Unlike the /bin directory which includes binarys for basic programs for all users to use /sbin holds commands that can only be used by the root user. It contains lots of useful programs like 'fsck' and more.</p>
+<h2>/srv</h2>
+<p>/srv stands for &quot;service&quot; and is used to hold files that are served by various system services such as web servers. By default I beleve on all Linux systems /srv has two files in it, being http and ftp both being types of web servers. There is not much to say about /srv but you are only really going to use it if you are messing around with websites.</p>
+<h2>/sys</h2>
+<p>The /sys directory is a virtual filesystem that allows us to examine the kernel's hardware and device model in greater detail. /sys is specifically made to interact with and set up kernel subsystems and hardware devices. Similar to /proc, the contents of this directory are generated in real time by the kernel and are important to understanding the hardware of your Linux system.</p>
+<h2>/tmp</h2>
+<p>The /tmp directory is used for storing temporary files created by programs and system processes. It serves as a place for programs to dump their data that is only needed temporarily. Files in /tmp are normally deleted on reboot or after a certain period of time. This directory is needed for many programs to work. There is not much else to say apart from do not store normal files here just in case they disappear!</p>
+<h2>/usr</h2>
+<p>The /usr directory is a very important part of the Linux filesystem, it stores user related programs and data. It contains a lot of the system's executable programs, libraries, and more. Within /usr you will find a few important directories /usr/bin that holds binaries /usr/lib that holds libraries, /usr/share which contains documentation and configuration files. /usr is made for files to be used by all users. It is essential for programs to function.</p>
+<h2>/var</h2>
+<p>The /var directory is used to store variable data that changes all the time while yout system is powered on. Important things such as logs, mail spools, and temporary files. If you are running a server I do suggest giving /var its own partition because it allows for easy backup and recovery.</p>
+<h2>Overview</h2>
+<p>This has took me a while to write because I have had to double check everything and put it in my own words so I understand it! If there are any issues please with this artical please report it.</p>
+<p>As normal thank you for reading!</p>
+
+      </div>
+    </article>
+
+    
+    
+
+    <footer class="post-footer">
+      <a href="/archive/linux" class="back-button">⬅ Back to Linux</a>
+    </footer>
+
+  </body>
+</html>
+

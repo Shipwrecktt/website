@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <title>Burning an ISO to a USB stick 💾</title>
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>Burning an ISO to a USB stick 💾</h1>
+        <p class="post-date">August 24, 2024</p>
+      </header>
+      <div class="post-content">
+        <hr>
+        <p>Burning an ISO onto a USB stick on Linux is very easy, and you only need to use a few commands!</p>
+<hr>
+<h2>What you will need 📋</h2>
+<ul>
+<li>A USB drive</li>
+<li>A computer with Linux 🐧🖥</li>
+<li>The ability to read instructions and to follow them 🧠</li>
+</ul>
+<hr>
+<h3>Warning ⚠️</h3>
+<p>Make sure there is no valuable information on the USB stick.</p>
+<hr>
+<h2>How to burn an ISO to a USB 🔥💾</h2>
+<ol>
+<li>You need to have an ISO file. I am guessing you already have one, but if you do have one, I would suggest checking out <a href="https://distrowatch.com">Distrowatch</a>.</li>
+</ol>
+<hr>
+<ol start="2">
+<li>Now that you have the ISO file, you need to plug in the USB stick. After doing that, you need to identify the name of the USB with the following command:</li>
+</ol>
+<blockquote>
+<p>$ lsblk</p>
+</blockquote>
+<p>The USB name will be something like sdb or sdc; if you are unsure, check the size of the USB and the size of the device listed.</p>
+<hr>
+<ol start="3">
+<li>We need to make sure the USB is unmounted, and we do this with this command. Remember to use your USB name:</li>
+</ol>
+<blockquote>
+<p>$ sudo umount /dev/sdX</p>
+</blockquote>
+<hr>
+<ol start="4">
+<li>Now it is time to burn the ISO to the USB stick, use your USB name and your ISO name with this command!</li>
+</ol>
+<blockquote>
+<p>$ sudo dd if=debian.iso of=/dev/sdX bs=4M status=progress oflag=sync</p>
+</blockquote>
+<hr>
+<ol start="5">
+<li>After waiting a bit for it to burn, you now need to eject it so you are able to use it with this command:</li>
+</ol>
+<blockquote>
+<p>$ sudo eject /dev/sdX</p>
+</blockquote>
+<hr>
+<h2>Finished ✅</h2>
+<p>After following all of these steps, your USB should have the ISO image burned into it. I hope this has helped you burn a Linux or BSD distro to a USB!</p>
+
+      </div>
+    </article>
+
+    
+    
+
+    <footer class="post-footer">
+      <a href="/archive/linux" class="back-button">⬅ Back to Linux</a>
+    </footer>
+
+  </body>
+</html>
+

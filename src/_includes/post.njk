@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>{{ title }}</h1>
+        <p class="post-date">{{ date | dateFormat("MMMM dd, yyyy") }}</p>
+      </header>
+      <div class="post-content">
+        <hr>
+        {{ content | safe }}
+      </div>
+    </article>
+
+    {% set postTags = (page and page.data and page.data.tags) or tags or [] %}
+    {% set displayTags = postTags | reject("equalto", "post") | list %}
+
+    <footer class="post-footer">
+      <!-- 🌟 Back button -->
+      <a href="/" class="back-button">⬅ Back to Home</a>
+
+      {% if displayTags | length %}
+      <p class="post-tags">
+      {% for tag in displayTags %}
+      <a href="/tags/{{ tag | lower | replace(' ', '-') }}/"
+         aria-label="View posts tagged {{ tag }}">
+        {{ tag }}
+      </a>
+      {% endfor %}
+      </p>
+      {% endif %}
+    </footer>
+
+  </body>
+</html>
+

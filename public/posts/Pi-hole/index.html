@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <title>Pi-hole</title>
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>Pi-hole</h1>
+        <p class="post-date">September 18, 2024</p>
+      </header>
+      <div class="post-content">
+        <hr>
+        <h2>Introduction</h2>
+<p>I've been rather busy with school lately, but I still have time to tinker! For a while now, I have wanted to use Pi-hole with my router, but I've either been busy with <a href="/posts/gentoo">Gentoo</a> or school. However, I have finally found the time and inspiration to install Pi-hole on my home server!</p>
+<hr>
+<h2>What is Pi-hole ?</h2>
+<img class="right-image" width="250" src="/images/logos/pihole.png">
+<a href="https://pi-hole.net/">Pi-hole</a> is a DNS sinkhole that can be used with your router to protect your other devices without installing any client-side software. For the most part, Pi-hole is used for only blocking ads, but there is more you can do with it, for example, logging internet activity and blocking websites.
+<h3>benefits of using Pi-Hole</h3>
+<ul>
+<li>Network wide adblocker</li>
+<li>Saves bandwith due to adblocker</li>
+<li>Adblocker on all mobile apps</li>
+<li>Free of cost</li>
+<li>Can function as a DHCP server</li>
+<li>Easy-to-install</li>
+</ul>
+<hr>
+<h2>Installing</h2>
+<p>Since I'm using Arch Linux as my server OS, the only real option I had was to use the <a href="https://github.com/pi-hole/docker-pi-hole">Docker</a> container. It was relatively easy to install, though I did encounter some issues, mostly due to me not reading what to do. Overall, I'd say it was easy to set up and configure for all my devices to use.</p>
+<h2>Blocklist</h2>
+<p>I have a number of websites blocked to avoid visiting suspicious sites or being tracked. The best source for blocklists from what I can tell is <a href="https://firebog.net/">Firebog</a>. I recommend using only the lists marked in green, as those coloured blue are either no longer maintained or may interfere with your normal day to day web browsing. Additionally I would just add the top three lists from each category to cover a good enought basis.</p>
+<hr>
+<h2>Conclusion</h2>
+<p>I really do like Pi-hole and I see myself using it for the forseeable future as it just does a whole bunch of intresting bits that help me be more secure online.</p>
+
+      </div>
+    </article>
+
+    
+    
+
+    <footer class="post-footer">
+      <!-- 🌟 Back button -->
+      <a href="/" class="back-button">⬅ Back to Home</a>
+
+      
+      <p class="post-tags">
+      
+      <a href="/tags/linux/"
+         aria-label="View posts tagged linux">
+        linux
+      </a>
+      
+      <a href="/tags/tech/"
+         aria-label="View posts tagged tech">
+        tech
+      </a>
+      
+      </p>
+      
+    </footer>
+
+  </body>
+</html>
+

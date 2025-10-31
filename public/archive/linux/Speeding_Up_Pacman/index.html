@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <title>Speeding up Pacman 🚗</title>
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>Speeding up Pacman 🚗</h1>
+        <p class="post-date">August 23, 2024</p>
+      </header>
+      <div class="post-content">
+        <hr>
+        <p>It is very easy to speed up Pacman, and we can do it in a few easy steps, so follow this guide, and your favourite package manager will be fast as anything!</p>
+<hr>
+<h2>Pacman.conf</h2>
+<p>Pacman can download packages in parallel, meaning you are able to download more than one package at a time, which makes the process of installing and updating packages way faster!</p>
+<p>The first thing you want to do is go to the location of pacman.conf, which is located in <strong>/etc/pacman.conf</strong>. So you would want to run a command like this but with your preferred text editor:</p>
+<blockquote>
+<p>$ sudo nvim /etc/pacman.conf</p>
+</blockquote>
+<p>Now that you are in the configuration file, you want to navigate to a section where it says <strong>Misc options</strong>. You want to uncomment the line where it says <strong>'ParallelDownloads.'</strong> It should look something like this:</p>
+<blockquote>
+<p># Misc options  <br>
+#UseSyslog  <br>
+Color  <br>
+#NoProgressBar  <br>
+CheckSpace  <br>
+#VerbosePkgLists  <br>
+ParallelDownloads = 5  <br>
+ILoveCandy</p>
+</blockquote>
+<p>If you have a keen eye, you may have spotted the last line, which says 'I Love Candy,' and the reason why this line is here is because it gives the Pacman prompt when you run it a bit of styal with the pound signs being replaced with Pacman!</p>
+<hr>
+<h2>Mirrors 🪞</h2>
+<p>If you did not know, a mirror is a server where the packages you install are hosted. Ideally, you want to download all of your packages from the fastest mirrors, so let me show you how to do that!</p>
+<p>The first thing you will need to do is install the reflector program and run the reflector command.</p>
+<blockquote>
+<p>$ sudo pacman -S reflector  <br>
+$ sudo reflector --latest 10 --sort rate --save /etc/pacman.d/mirrorlist  <br>
+$ sudo pacman -Syy # To update package list from server</p>
+</blockquote>
+<p>After running this command, your download speed should be way faster!</p>
+<hr>
+<p>I hope this has helped you in making Pacman not only look better but function better!</p>
+
+      </div>
+    </article>
+
+    
+    
+
+    <footer class="post-footer">
+      <a href="/archive/linux" class="back-button">⬅ Back to Linux</a>
+    </footer>
+
+  </body>
+</html>
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <title>Encrypting USB with luks 🔒</title>
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>Encrypting USB with luks 🔒</h1>
+        <p class="post-date">February 17, 2025</p>
+      </header>
+      <div class="post-content">
+        <hr>
+        <h2>What you will need 📋</h2>
+<ul>
+<li>A USB drive</li>
+<li>A computer with Linux 🐧🖥</li>
+<li>The ability to read instructions and to follow them 🧠</li>
+</ul>
+<hr>
+<ol>
+<li>Install cryptsetup</li>
+</ol>
+<blockquote>
+<p>$ sudo pacman -S cryptsetup</p>
+</blockquote>
+<hr>
+<ol start="2">
+<li>Backup any information on the USB stick because this process involves formatting the USB drive.</li>
+</ol>
+<hr>
+<ol start="3">
+<li>Formatting USB.</li>
+</ol>
+<blockquote>
+<p>$ sudo fdisk /dev/sdX</p>
+</blockquote>
+<p>The X being your USB drive.</p>
+<p>Press the following keys:<br>
+o<br>
+n<br>
+Press enter for the rest<br>
+w</p>
+<hr>
+<ol start="4">
+<li>Encryption time!</li>
+</ol>
+<blockquote>
+<p>$ sudo cryptsetup luksFormat /dev/sdX1</p>
+</blockquote>
+<hr>
+<ol start="5">
+<li>Decrypt USB</li>
+</ol>
+<blockquote>
+<p>$ sudo cryptsetup luksOpen /dev/sdX1 USB</p>
+</blockquote>
+<p>Note: The first password is your root user password, not the encryption password. I have sadly made this mistake in the past.</p>
+<hr>
+<ol start="6">
+<li>Format the Encrypted Partition</li>
+</ol>
+<blockquote>
+<p>$ sudo mkfs.ext4 /dev/mapper/USB</p>
+</blockquote>
+<p>Depending on the size of the USB, this may take some time. For me, it took 3 minutes.</p>
+<hr>
+<p>Step 7: Mount the Encrypted Partition</p>
+<blockquote>
+<p>$ sudo mkdir -p /mnt/USB  <hr>
+$ sudo mount /dev/mapper/USB /mnt/USB</p>
+</blockquote>
+<hr>
+<h2>Finished ✅</h2>
+<p>I hope your password is good, make sure to memorize it or save it in a password manager!</p>
+
+      </div>
+    </article>
+
+    
+    
+
+    <footer class="post-footer">
+      <a href="/archive/linux" class="back-button">⬅ Back to Linux</a>
+    </footer>
+
+  </body>
+</html>
+

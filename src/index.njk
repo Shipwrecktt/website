@@ -1,0 +1,37 @@
+---
+layout: layout
+title: Shipwreckt
+---
+<h1>About me</h1>
+<p>Welcome to my website! I am Shipwreckt, I am a 16 year old from the Uk and I have a great passion for all things computer relating be that software, hardware, programming and more! I mostly focus on learning and working with the GNU/Linux operating system.</p>
+
+
+
+<p>list of <a href="churches">Churchs</a> I have been to</a>
+<hr>
+
+<h2>Tags</h2>
+<p class="tag-list-inline">
+  {% set tagCount = 0 %}
+  {% for tagName, items in collections %}
+    {% if tagName not in ["all", "post", "posts", "tools" , "safe" , "dark" , "media-tutorials" , "arch-linux" , "information-about-linux" , "the-linux-server" , "tagList"] %}
+      {% if tagCount > 0 %}, {% endif %}
+      <a href="/tags/{{ tagName | lower | replace(' ', '-') }}/">
+        {{ tagName }}
+      </a>
+      {% set tagCount = tagCount + 1 %}
+    {% endif %}
+  {% endfor %}
+</p>
+<hr>
+<h1>Posts</h1>
+<ul>
+  {% for post in collections.posts %}
+    <li>
+      <span class="post-date">{{ post.date | dateFormat("dd-MM-yyyy") }}</span>
+      — <a href="{{ post.url }}">{{ post.data.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+<hr>
+

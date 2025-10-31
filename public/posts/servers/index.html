@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <title>Messing Around with servers</title>
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>Messing Around with servers</h1>
+        <p class="post-date">July 27, 2024</p>
+      </header>
+      <div class="post-content">
+        <hr>
+        <p>Originally, this article was going to be about setting up an email server. However, due to problems with my router and the fact that I do not like the idea of hosting an email server locally in case it goes down, I have chosen not to do that. Instead, I have decided to host a different server on my local network, and that is what this article is about!</p>
+<p>Below is my server; it is a ThinkCentre. I do not really care about the specs because it is not going to be doing much, but it does have an Intel i7, so it’s not bad at all for what I am doing. It has 8 cores and 16 GB of memory, which should be more than enough for what I am doing.</p>
+<center>
+<img width="550" src="/images/hardware/thinkcenter.png">
+</center>
+<hr>
+<h2>What is on the Server?</h2>
+<img class="right-image" width="250" src="/images/logos/ubuntu-logo.png">
+The operating system of choice for this server is Ubuntu Server; I do know it is not the best server operating system, but I will stick with it for now because I have already set everything up. In the future, I plan to migrate to either a Debian server or an OpenBSD server due to the annoyance of Ubuntu’s snap packages and other weird stuff Ubuntu likes to do.
+<p>This is my first time using Docker. Docker allows you to contain programs, such as Apache, letting you to run multiple instances and manage them easily. It has been a pretty smooth experience so far! With Docker, I have installed the Jellyfin media server.</p>
+<p>Originally, I planned to install Plex, but the web interface was scuffed and was stuck on the &quot;Premium Features&quot; popup, and none of the buttons worked. So, I removed that container and chose Jellyfin instead. I have heard good things about Jellyfin beforehand, and those have turned out to be true! So far, Jellyfin has met all my needs for a media server, and I am very content with it. If I do change the server OS, I will stick with Jellyfin. I also like that you can upload books to it but I have not tried that feature yet.</p>
+<p>The other thing I have on this server is an instance of SearXNG on my local network, providing my own self-hosted search engine! I set it up because I wasn’t sure what else to do with the server, and it’s fun having my own private search engine. Plus, it is definitely much more private than using online search engines like DuckDuckGo or, God forbid, Google.</p>
+<hr>
+<h2>Conclusion</h2>
+<p>Overall, this has been an enjoyable project, and I will probably migrate my server sometime in the coming weeks. As always, thank you for reading!</p>
+
+      </div>
+    </article>
+
+    
+    
+
+    <footer class="post-footer">
+      <!-- 🌟 Back button -->
+      <a href="/" class="back-button">⬅ Back to Home</a>
+
+      
+      <p class="post-tags">
+      
+      <a href="/tags/linux/"
+         aria-label="View posts tagged linux">
+        linux
+      </a>
+      
+      <a href="/tags/hardware/"
+         aria-label="View posts tagged hardware">
+        hardware
+      </a>
+      
+      <a href="/tags/tech/"
+         aria-label="View posts tagged tech">
+        tech
+      </a>
+      
+      </p>
+      
+    </footer>
+
+  </body>
+</html>
+
