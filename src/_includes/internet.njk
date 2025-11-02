@@ -7,11 +7,26 @@
     <title>{{ title }}</title>
   </head>
   <body>
+    <header>
+      <nav class="site-nav">
+        <div class="nav-container">
+          <div class="nav-left">
+            <a href="/" class="site-title">Shipwreckt</a>
+          </div>
+          <ul class="nav-right">
+            <li><a href="/">Home</a></li>
+            <li><a href="/archive/">Archive</a></li>
+            <li><a href="/links/">Links</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <hr>
+      <h1>{{ title }}</h1>
+      <p class="post-date">{{ date | dateFormat("MMMM dd, yyyy") }}</p>
+    </header>
+
     <article>
-      <header>
-        <h1>{{ title }}</h1>
-        <p class="post-date">{{ date | dateFormat("MMMM dd, yyyy") }}</p>
-      </header>
       <div class="post-content">
         <hr>
         {{ content | safe }}
@@ -21,7 +36,7 @@
     {% set postTags = (page and page.data and page.data.tags) or tags or [] %}
     {% set displayTags = postTags | reject("equalto", "post") | list %}
 
-    <footer class="post-footer">
+    <footer>
       <a href="/archive/internet" class="back-button">⬅ Back to internet</a>
     </footer>
 

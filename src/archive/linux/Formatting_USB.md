@@ -52,5 +52,3 @@ The small x represents the number of the partition; the -L flag is used to give 
 ## Finished ✅
 
 All done! Now you have an empty USB stick you can use for all your files!
-
-* * *

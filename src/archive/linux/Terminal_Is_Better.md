@@ -27,4 +27,5 @@ By learning all of these command-line tools over time, you will start learning h
 
 ***
 
-For now that is all I have on why terminal is better!
+## Overview
+Those are all the reasons why I think the terminal is better then the GUI!
