@@ -5,7 +5,7 @@ title: Shipwreckt
 # Contact
 Email: <a href="mailto:me@shipwreckt.co.uk">me@shipwreckt.co.uk</a>
 
-PGP key: <a href="https://keys.openpgp.org/search?q=me%40shipwreckt.co.uk">261F B571 ADC9 4529 990D  0458 40BE 11E9 2FA8 F7D9</a>
+PGP key: <a href="https://keys.openpgp.org/search?q=me%40shipwreckt.co.uk">B8FF A682 1F6C 4531 B599  F647 0F6B AD14 B6C1 6F5A</a>
 
 Matrix: <a href="https://matrix.to/#/@shipwreckt:matrix.org">@shipwreckt:matrix.org</a>
 

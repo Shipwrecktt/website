@@ -40,7 +40,11 @@ Follow Thee more nearly." (Jones, 1993, p. 261)
 
 ## Sources
 Catholic Church (1563) General Council of Trent: Twenty-Third Session - Papal Encyclicals. https://www.papalencyclicals.net/councils/trent/twenty-third-session.htm (Accessed: April 4, 2026).
+
 Editors, B. (2026) Saint Richard of Chichester. https://www.britannica.com/biography/Saint-Richard-of-Chichester (Accessed: April 1, 2026).
+
 Jones, D. (ed.) (1993) SAINT RICHARD OF CHICHESTER the sources for his life. Totton, Hampshire, United Kingdom of Great Britain and Northern Ireland: Hobbsthe Printers Ltd. https://www.sussexrecordsociety.org/wp-content/uploads/Digital_editions/SRS-Vol-79.pdf.
+
 Online, C. (no date) St. Richard of Chichester - Saints & Angels - Catholic Online. https://www.catholic.org/saints/saint.php?saint_id=4603 (Accessed: April 1, 2026).
+
 Still, L. and The Novium Museum (no date) The Life of St Richard. https://Https://www.thenovium.org.uk/lifeofstrichard (Accessed: April 1, 2026).
