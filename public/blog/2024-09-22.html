@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Trying out I2P 🕵️</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../images/favi.ico" sizes="any">
+  </head>
+  <header>
+    <h1> Trying out I2P 🕵️</h1>
+    <hr>
+    <p><a href="../index.html">Home</a>, <a href="../archive.html">Archive</a>, <a href="../videos.html">Videos</a>, <a href="../links.html">Links</a>, <a href="../contact.html">Contact</a>
+    <hr>
+  </header>
+
+  <body>
+    <h2>What is I2P?</h2>
+    <img class="right-image" width="250" src="../images/logos/i2p.png">
+    <p><a href="https://i2p.net/">I2P</a> stands for "The Invisible Internet Project" and it is a totally private and encrypted private network layer. If you have ever heard of or used the <a href="https://www.torproject.org/">Tor project</a>, it is similar, but the I2P network is more secure and faster.</p>
+
+    <h3>What is the point of using I2P?</h3>
+    <p>This is a good question. Why should you or I even use I2P? The answer is simple: it offers many interesting things, for example:</p>
+    <ul>
+      <li>Over 7,000 unique websites to visit</li>
+      <li>Free fully private Email address</li>
+      <li>Private IRCs</li>
+      <li>Fully decentralization</li>
+      <li>Advanced userbase</li>
+      <li>Faster than the <a href="https://www.torproject.org/">Tor</a> and <a href="https://staging.freenetproject.org/">freenet</a></li>
+    </ul>
+    <p>Overall, I2P offers a lot to you and has an amazing community of friendly people.</p>
+
+    <hr>
+
+
+    <h2>My experience</h2>
+    <p>I installed i2pd onto my home server. I chose i2pd because it is written in C, making it faster than the normal I2P package.</p>
+
+    <p>After installing and starting up i2pd with Systemd, I had to forward the ports on my local network so that I could use I2P. This can be done by running a simple command:</p>
+
+    <code>
+      $ > ssh -fTNL 4444:127.0.0.1:4444 -L 7070:127.0.0.1:7070 <username>
+    </code>
+    <p>I would strongly suggest using <a href="https://librewolf.net/">Librewolf</a> to look through the I2P network.</p>
+
+    <hr>
+
+    <h2>Conclusion</h2>
+    <p>Most of the websites on I2P are personal sites. I highly suggest using NotBob to look for them because some of them are really cool.</p>
+  </body>
+
+  <footer>
+    <hr>
+    <center>
+      <pre> <a href="https://www.gnu.org/licenses/copyleft.en.html">🄯 2023, 2024, 2025, 2026 Shipwreckt</a> - <a href="https://gitlab.com/Shipwreckt/website">Source code</a> - <a href="mailto:me@shipwreckt.co.uk">me@shipwreckt.co.uk</a></pre>
+    </center>
+  </footer>
+</html> 

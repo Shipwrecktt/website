@@ -1,0 +1,93 @@
+body {
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: #282828;
+  color: #F5F5F5;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  color: #FF8F00;
+}
+
+p {
+  color: #D3D3D3;
+}
+a {
+  color: #4FC3F7;
+}
+
+a:hover {
+  color: #81D4FA;
+}
+
+button {
+  background-color: #FFD369;
+  color: #282828;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #FFC107;
+}
+
+
+section, .card {
+  background-color: #3A3A3A;
+  border: 1px solid #555;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+input, textarea {
+  background-color: #404040;
+  color: #F5F5F5;
+  border: 1px solid #666;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #4FC3F7;
+  outline: none;
+}
+
+.right-image {
+  float: right;
+  margin: 0 0 10px 15px;
+}
+
+.left-image {
+  float: left;
+  margin: 0 15px 10px 0;
+}
+
+.success {
+  color: #4CAF50;
+}
+
+.warning {
+  color: #FFC107;
+}
+
+.error {
+  color: #F44336;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: rgb(255,153,0);opacity:0.6;
+  color: white;
+}
