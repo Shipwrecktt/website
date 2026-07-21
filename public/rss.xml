@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Shippost</title>
+    <link>https://shipwreckt.co.uk</link>
+    <description>Shipwreckt's blog posts.</description>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 15 Jul 2026 15:50:56 GMT</lastBuildDate>
+
+    <item>
+      <title>College and the summer holiday</title>
+      <description>In this post I will be going over what my plans are during the summer holidays!</description>
+      <link>https://www.shipwreckt.co.uk/blog/2026-07-04.html</link>
+      <guid>https://www.shipwreckt.co.uk/blog/2026-07-04.html</guid>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+
+  </channel>
+</rss>

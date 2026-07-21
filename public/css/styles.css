@@ -91,3 +91,10 @@ th {
   background-color: rgb(255,153,0);opacity:0.6;
   color: white;
 }
+
+
+
+.blog-header { display:flex; align-items:center; gap:8px; }
+.blog-header h2 { margin:0; }
+.rss-icon { width:20px; height:auto; }
+

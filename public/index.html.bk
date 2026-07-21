@@ -28,13 +28,11 @@
       </ul>
 
       <hr>
+      <h2>Blog posts</h2>
+      <a href="./rss.xml">
+        <img width="20" src="/images/logos/RSS.svg" alt="RSS feed">
+      </a>
 
-      <div style="display:flex; align-items:center; gap:8px;">
-        <a href="./rss.xml">
-          <img width="20" src="/images/logos/RSS.svg" alt="RSS feed">
-        </a>
-        <h2 style="margin:0;">Blog posts</h2>
-      </div>
 
       <ul>
         <li>04-07-2026 - <a href="blog/2026-07-04.html">College, the summer holidays, and my plans.</a></li>
